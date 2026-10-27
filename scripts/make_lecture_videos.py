@@ -3,9 +3,9 @@
 Needs Pillow, ffmpeg/ffprobe and espeak-ng. Output: site/videos/*.mp4
 Lines starting with "$ " are drawn as code.
 """
-import html, pathlib, shutil, subprocess, sys, tempfile
+import html, pathlib, shutil, subprocess, sys, tempfile, textwrap
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from tts import speak, textwrap
+from tts import speak
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
