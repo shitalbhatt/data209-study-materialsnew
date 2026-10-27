@@ -1,10 +1,13 @@
 """Turns the course slide PDFs into narrated videos (one video per lecture or lab) and writes site/slide-videos.html.
 
 Usage: python3 scripts/make_slide_videos.py SRC_DIR
-SRC_DIR holds the PDFs named in VIDEOS. Needs poppler (pdftoppm, pdftotext), ffmpeg/ffprobe and espeak-ng.
-The narration is the prose on each slide read by espeak-ng; code, tables and numbers stay on screen only.
+SRC_DIR holds the PDFs named in VIDEOS. Needs poppler (pdftoppm, pdftotext), ffmpeg/ffprobe and espeak-ng (or edge-tts).
+Set VOICE=edge for the Indian English female voice (en-IN-NeerjaNeural); run with only a few video ids to rebuild just those.
+The narration is the prose on each slide read by the voice; code, tables and numbers stay on screen only.
 """
 import concurrent.futures as cf, html, pathlib, re, shutil, subprocess, sys, tempfile
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from tts import speak
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "site" / "slide-videos"
@@ -71,7 +74,7 @@ def make_segment(args):
     base = tmp / f"{tag}-{n:03d}"
     run(["pdftoppm", "-f", str(n), "-l", str(n), "-png", "-singlefile", "-scale-to-x", str(W), "-scale-to-y", "-1", str(pdf), str(base)])
     wav, seg = base.with_suffix(".wav"), base.with_suffix(".mp4")
-    run(["espeak-ng", "-v", "en-us", "-s", "155", "-w", str(wav), narration(page_text(pdf, n))])
+    speak(narration(page_text(pdf, n)), wav, 155)
     t = max(4.0, dur(wav) + 1.0)
     run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "5", "-i", str(base.with_suffix(".png")), "-i", str(wav),
          "-t", f"{t:.2f}", "-af", "apad", "-vf", f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=white,fps=5,format=yuv420p",

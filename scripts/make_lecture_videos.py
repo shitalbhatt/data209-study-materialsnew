@@ -3,7 +3,9 @@
 Needs Pillow, ffmpeg/ffprobe and espeak-ng. Output: site/videos/*.mp4
 Lines starting with "$ " are drawn as code.
 """
-import html, pathlib, shutil, subprocess, tempfile, textwrap
+import html, pathlib, shutil, subprocess, sys, tempfile
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from tts import speak, textwrap
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -189,7 +191,7 @@ def build(vid, title, slides, tmp):
     for i, (st, lines, narr) in enumerate(slides, 1):
         png, wav, seg = tmp / f"{vid}-{i}.png", tmp / f"{vid}-{i}.wav", tmp / f"{vid}-{i}.mp4"
         draw(png, st, lines, i, len(slides))
-        subprocess.run(["espeak-ng", "-v", "en-us", "-s", "150", "-w", str(wav), narr], check=True)
+        speak(narr, wav, 150)
         t = dur(wav) + 1.2
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "5", "-i", str(png), "-i", str(wav),
                         "-t", f"{t:.2f}", "-af", "apad", "-vf", "fps=10,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast",

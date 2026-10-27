@@ -15,3 +15,12 @@ Study materials for DATA209 (BTech Hons. Data Science, Semester III).
 | `scripts/make_video.py` | Regenerates the video (needs Pillow, ffmpeg and espeak-ng) |
 
 Enable Pages (Settings > Pages > Source: GitHub Actions) to publish the site on every push to `main`.
+
+## Rebuild with the Indian English female voice
+Needs internet access to `speech.platform.bing.com`.
+```
+pip install edge-tts
+VOICE=edge python3 scripts/make_slide_videos.py /path/to/slide/pdfs      # all 21 slide videos
+VOICE=edge python3 scripts/make_lecture_videos.py                        # summary videos
+```
+The voice is `en-IN-NeerjaNeural` (change with `EDGE_VOICE`, speed with `EDGE_RATE`).
