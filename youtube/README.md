@@ -20,4 +20,4 @@ Channel: https://youtube.com/@data209eda
 Channel description:
 > Lectures and labs for DATA209 Advanced Exploratory Data Analysis (B.Tech Hons. Data Science, Vidyashilp University). Slides, code walkthroughs and revision material. Study site: https://shitalbhatt.github.io/data209-study-materialsnew/
 
-Note: replace the files with the Indian female voice versions once they are built; the titles and descriptions stay the same (edit the "synthetic voice" line if you like).
+The videos in `site/slide-videos/` now use the Indian English female voice (en-IN-NeerjaNeural).

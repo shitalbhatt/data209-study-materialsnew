@@ -1,5 +1,7 @@
 """Builds video/data209-revision.mp4 from the slide list below (with narration)."""
-import subprocess, textwrap, pathlib
+import subprocess, sys, textwrap, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from tts import speak
 from PIL import Image, ImageDraw, ImageFont
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "video"
@@ -79,7 +81,7 @@ def dur(f):
 segs = []
 for i, t in enumerate(NARR, 1):
     wav = AUD / f"n{i:02d}.wav"
-    subprocess.run(["espeak-ng","-v","en-us","-s","150","-w",str(wav),t],check=True)
+    speak(t, wav, 150)
     seg = SEG / f"seg{i:02d}.mp4"
     length = max(6.0, dur(wav) + 1.2)
     subprocess.run(["ffmpeg","-y","-loglevel","error","-loop","1","-i",str(SL/f"s{i:02d}.png"),"-i",str(wav),
