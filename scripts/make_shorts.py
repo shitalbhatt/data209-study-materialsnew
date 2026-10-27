@@ -17,6 +17,7 @@ FB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 BG, FG, ACC, MUT = (18, 24, 38), (245, 248, 252), (96, 165, 250), (148, 163, 184)
 MAX_WORDS = 70
+TITLE_OVERRIDES = {"l01-1": "EDA is detective work; confirmatory analysis is the trial", "l07-08-3": "Non-graphical vs graphical EDA"}
 
 
 def font(p, s): return ImageFont.truetype(p, s)
@@ -88,7 +89,7 @@ def make_short(args):
     vid, group, pdf, page, idx, tmp = args
     tag = f"{vid}-{idx}"
     lines = sv.page_text(pdf, page)
-    title = heading(lines)
+    title = TITLE_OVERRIDES.get(tag, heading(lines))
     text = sv.narration(lines)
     words = text.split()
     if len(words) > MAX_WORDS:
