@@ -1,4 +1,4 @@
-"""Builds video/data209-revision.mp4 from the slide list below (silent, on-screen text)."""
+"""Builds video/data209-revision.mp4 from the slide list below (with narration)."""
 import subprocess, textwrap, pathlib
 from PIL import Image, ImageDraw, ImageFont
 
@@ -48,8 +48,45 @@ for i, (title, lines, kind) in enumerate(SLIDES, 1):
     d.text((W - 150, H - 50), f"{i}/{len(SLIDES)}", font=font(R, 24), fill=MUT)
     im.save(SL / f"s{i:02d}.png")
 
-# 6 seconds per slide
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", "1/6", "-i", str(SL / "s%02d.png"),
-                "-vf", "fps=25,format=yuv420p", "-c:v", "libx264", "-movflags", "+faststart",
-                str(OUT / "data209-revision.mp4")], check=True)
-print("done", len(SLIDES), "slides")
+
+NARR = [
+ "Welcome to the DATA209 revision video. Four modules, one idea per slide.",
+ "Exploratory analysis asks what is going on, and generates hypotheses. Confirmatory analysis tests a claim fixed beforehand. Never test a hypothesis on the same rows that suggested it.",
+ "Bias is systematic and does not shrink with more data. Variance is random and shrinks with the square root of n. A big biased sample is worse than a small random one.",
+ "In a right skew, the mean is above the median. Excess kurtosis is kurtosis minus three, and it measures tails. Report mean and standard deviation for symmetric data, median and I Q R for skewed data.",
+ "Nominal, ordinal, interval, ratio. Each scale allows more operations than the last. Discrete is counted, continuous is measured.",
+ "With d dimensions you need ten to the d points. Data gets sparse and models overfit. Use feature selection, P C A, or regularisation.",
+ "Look at numbers first, plots second, then check they agree. In the Superstore data, mean profit is far above the median, and over half of orders lose money.",
+ "Correlation is scale free, between minus one and one. Spearman uses ranks, so it is robust to outliers. Always pair it with a scatterplot, and remember correlation is not causation.",
+ "V I F above ten is severe multicollinearity. Scale before K means, and interpret every cluster with a group by.",
+ "The grammar of graphics maps data to aesthetics, geometry, scales and facets. Prefer position and length over area and colour. One plot answers one question.",
+ "Data quality has four dimensions: accuracy, completeness, consistency and validity. Re audit after every fix.",
+ "Missing data is M C A R, M A R, or M N A R. Every imputation shrinks variance, and K N N keeps the most.",
+ "Decide whether an outlier is a mistake, a real value, or a limit. Fix, cap, or flag accordingly. Z scores suffer from masking, so also use I Q R fences and isolation forest.",
+ "One hot encode unordered categories and drop one. Map ordered ones yourself. For imbalanced classes, stratify, use class weights, and judge by recall.",
+ "Transform skew with logs. Scale with z score, min max or robust scaling. Fit scalers and encoders on training data only, to avoid leakage.",
+ "The exam is two hours, twenty five questions, Modules one and two. Write interpretations in full sentences tied to your output.",
+ "Good luck. Notes, quiz and cheat sheet are in the repository.",
+]
+assert len(NARR) == len(SLIDES)
+
+import shutil
+AUD = OUT / "audio"; AUD.mkdir(exist_ok=True)
+SEG = OUT / "segments"; SEG.mkdir(exist_ok=True)
+def dur(f):
+    r = subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",str(f)],capture_output=True,text=True,check=True)
+    return float(r.stdout)
+segs = []
+for i, t in enumerate(NARR, 1):
+    wav = AUD / f"n{i:02d}.wav"
+    subprocess.run(["espeak-ng","-v","en-us","-s","150","-w",str(wav),t],check=True)
+    seg = SEG / f"seg{i:02d}.mp4"
+    length = max(6.0, dur(wav) + 1.2)
+    subprocess.run(["ffmpeg","-y","-loglevel","error","-loop","1","-i",str(SL/f"s{i:02d}.png"),"-i",str(wav),
+        "-t",f"{length:.2f}","-af","apad","-vf","fps=25,format=yuv420p","-c:v","libx264","-c:a","aac","-shortest",str(seg)],check=True)
+    segs.append(seg)
+lst = SEG / "list.txt"
+lst.write_text("".join(f"file '{s.name}'\n" for s in segs))
+subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",str(lst),"-c","copy","-movflags","+faststart",str(OUT/"data209-revision.mp4")],check=True)
+shutil.rmtree(SEG)
+print("done", len(SLIDES), "slides with narration")
