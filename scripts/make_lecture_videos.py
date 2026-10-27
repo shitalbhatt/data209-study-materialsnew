@@ -217,7 +217,7 @@ def main():
             '<title>DATA209 Videos</title><style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;line-height:1.5}',
             'h2{margin-top:2.2rem;border-bottom:1px solid #8884;padding-bottom:.3rem}video{width:100%;border-radius:8px;background:#000}',
             'details{margin:.6rem 0}summary{cursor:pointer;font-weight:600;padding:.3rem 0}small{color:#888;font-weight:400}</style></head><body>',
-            '<p><a href="index.html">&larr; Study guide</a></p><h1>DATA209 lecture and lab videos</h1>',
+            '<p><a href="index.html">&larr; Study guide</a> &middot; <a href="slide-videos.html">Full lecture and lab videos from the slides</a></p><h1>DATA209 summary videos</h1>',
             '<p>Short narrated slide videos (synthetic voice). Module 4 videos are built from the course plan because the lecture slides were not available.</p>',
             '<h2>Full revision video</h2><video controls preload="none" src="data209-revision.mp4"></video>']
     cur = None

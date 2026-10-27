@@ -7,6 +7,8 @@ Study materials for DATA209 (BTech Hons. Data Science, Semester III).
 | `site/` | Interactive study website (GitHub Pages) with the revision video page |
 | `notes/` | Module notes in Markdown |
 | `practice/` | 25 practice questions with answers |
+| `site/slide-videos/` | 21 narrated videos stepping through your real lecture and lab slides (Modules 1-4), listed on `site/slide-videos.html` |
+| `scripts/make_slide_videos.py` | Builds them from the slide PDFs (`python3 scripts/make_slide_videos.py SRC_DIR`) |
 | `site/videos/` | 19 narrated videos: one per lecture pair (L1-2 ... L29-30) and 4 lab videos, listed on `site/videos.html` |
 | `scripts/make_lecture_videos.py` | Regenerates those videos and `videos.html` |
 | `video/` | Revision video (`data209-revision.mp4`, narrated by text-to-speech, 17 slides) |
