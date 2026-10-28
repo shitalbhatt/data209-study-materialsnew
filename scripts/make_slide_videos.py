@@ -119,7 +119,7 @@ def main():
             'details{margin:.6rem 0}summary{cursor:pointer;font-weight:600;padding:.3rem 0}small{color:#888;font-weight:400}</style></head><body>',
             '<p><a href="index.html">&larr; Study guide</a> &middot; <a href="videos.html">Short summary videos</a></p>',
             '<h1>DATA209 lecture and lab videos</h1>',
-            '<p>Each video steps through the real course slides. A synthetic voice reads the prose on each slide; code and tables stay on screen, so pause to read them.</p>']
+            '<p>Each video explains the real course slides one by one, in detail, with an Indian-English synthetic voice. Pause on a slide to study its code and tables.</p>']
     cur = None
     for vid, group, title, secs, n in rows:
         if group != cur:

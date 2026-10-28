@@ -27,7 +27,7 @@ Lectures and labs for DATA209 Advanced Exploratory Data Analysis (B.Tech Hons. D
 
 ---
 
-## 1. l01.mp4  (9.7 min)
+## 1. l01.mp4  (17.8 min)
 
 **Playlist:** DATA209 Module 1: Statistical and Data Foundations
 
@@ -52,7 +52,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 2. l02.mp4  (6.3 min)
+## 2. l02.mp4  (11.1 min)
 
 **Playlist:** DATA209 Module 1: Statistical and Data Foundations
 
@@ -77,7 +77,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 3. l03-04.mp4  (4.5 min)
+## 3. l03-04.mp4  (7.8 min)
 
 **Playlist:** DATA209 Module 1: Statistical and Data Foundations
 
@@ -102,7 +102,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 4. l05-06.mp4  (7.4 min)
+## 4. l05-06.mp4  (12.4 min)
 
 **Playlist:** DATA209 Module 1: Statistical and Data Foundations
 
@@ -127,7 +127,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 5. l07-08.mp4  (18.3 min)
+## 5. l07-08.mp4  (22.8 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -152,7 +152,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 6. p07-08.mp4  (7.1 min)
+## 6. p07-08.mp4  (10.2 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -177,7 +177,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 7. l09-10.mp4  (7.3 min)
+## 7. l09-10.mp4  (11.4 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -202,7 +202,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 8. p09-10.mp4  (4.9 min)
+## 8. p09-10.mp4  (9.0 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -227,7 +227,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 9. l11-12.mp4  (6.0 min)
+## 9. l11-12.mp4  (10.2 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -252,7 +252,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 10. p11-12.mp4  (3.2 min)
+## 10. p11-12.mp4  (7.1 min)
 
 **Playlist:** DATA209 Module 2: Core Advanced EDA
 
@@ -277,7 +277,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 11. p15-16.mp4  (9.5 min)
+## 11. p15-16.mp4  (20.4 min)
 
 **Playlist:** DATA209 Module 3: Data Quality and Anomaly Management
 
@@ -302,7 +302,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 12. l17-18.mp4  (8.5 min)
+## 12. l17-18.mp4  (16.5 min)
 
 **Playlist:** DATA209 Module 3: Data Quality and Anomaly Management
 
@@ -327,7 +327,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 13. l19-20.mp4  (13.3 min)
+## 13. l19-20.mp4  (28.9 min)
 
 **Playlist:** DATA209 Module 3: Data Quality and Anomaly Management
 
@@ -352,7 +352,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 14. l21-22.mp4  (7.6 min)
+## 14. l21-22.mp4  (14.9 min)
 
 **Playlist:** DATA209 Module 3: Data Quality and Anomaly Management
 
@@ -377,7 +377,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 15. l23-24.mp4  (8.4 min)
+## 15. l23-24.mp4  (19.1 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -402,7 +402,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 16. l25-26.mp4  (9.8 min)
+## 16. l25-26.mp4  (18.4 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -427,7 +427,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 17. p25-26.mp4  (6.0 min)
+## 17. p25-26.mp4  (17.6 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -452,7 +452,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 18. l27-28.mp4  (4.5 min)
+## 18. l27-28.mp4  (8.6 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -477,7 +477,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 19. p27-28.mp4  (2.7 min)
+## 19. p27-28.mp4  (7.9 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -502,7 +502,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 20. l29-30.mp4  (5.4 min)
+## 20. l29-30.mp4  (10.8 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
@@ -527,7 +527,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 ---
 
-## 21. p29-30.mp4  (3.9 min)
+## 21. p29-30.mp4  (11.1 min)
 
 **Playlist:** DATA209 Module 4: Feature Engineering, Transformation and Structure
 
