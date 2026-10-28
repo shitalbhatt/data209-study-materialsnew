@@ -7,7 +7,10 @@ Study materials for DATA209 (BTech Hons. Data Science, Semester III).
 | `site/` | Interactive study website (GitHub Pages) with the revision video page |
 | `notes/` | Module notes in Markdown |
 | `practice/` | 25 practice questions with answers |
-| `site/slide-videos/` | 21 narrated videos stepping through your real lecture and lab slides (Modules 1-4), listed on `site/slide-videos.html` |
+| `site/slide-videos/` | 27 narrated videos stepping through your real lecture and lab slides (Modules 1-4), listed on `site/slide-videos.html` |
+| `decks/` | PowerPoint decks for Lectures 13-14 and 15-16 (made from the course narration scripts) |
+| `scripts/make_decks.py` | Builds those two decks |
+| `scripts/narration/` | The hand-written spoken explanation for every slide (JSON) |
 | `scripts/make_slide_videos.py` | Builds them from the slide PDFs (`python3 scripts/make_slide_videos.py SRC_DIR`) |
 | `site/shorts/` | 50 vertical Shorts (1080x1920, under 60 s) made from the real slides, listed on `site/shorts.html`; titles and descriptions in `youtube/shorts.csv` |
 | `scripts/make_shorts.py` | Builds the Shorts (`VOICE=edge python3 scripts/make_shorts.py SRC_DIR`) |

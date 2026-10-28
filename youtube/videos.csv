@@ -4,7 +4,7 @@ order,playlist,type,file,title,description,tags,minutes
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 1: Statistical and Data Foundations.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
@@ -14,7 +14,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 1: Statistical and Data Foundations.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
@@ -24,7 +24,7 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 1: Statistical and Data Foundations.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
@@ -34,177 +34,237 @@ Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 1: Statistical and Data Foundations.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",12.4
-5,Module 2,Lecture,site/slide-videos/l07-08.mp4,DATA209 Lectures 7-8: Non-graphical vs graphical EDA (Superstore) | Advanced Exploratory Data Analys,"Lectures 7-8: Non-graphical vs graphical EDA (Superstore)
+5,Module 1,Lab,site/slide-videos/p01-02.mp4,"DATA209 Practical 1-2: Framing, loading and describing data | Advanced Exploratory Data Analysis","Practical 1-2: Framing, loading and describing data
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 1: Statistical and Data Foundations.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",8.9
+6,Module 1,Lab,site/slide-videos/p01-02b.mp4,DATA209 Practical 1-2: Worked example on California Housing | Advanced Exploratory Data Analysis,"Practical 1-2: Worked example on California Housing
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 1: Statistical and Data Foundations.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",14.7
+7,Module 1,Lab,site/slide-videos/p03-04.mp4,DATA209 Practical 3-4: Spotting data types and structure | Advanced Exploratory Data Analysis,"Practical 3-4: Spotting data types and structure
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 1: Statistical and Data Foundations.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",7.5
+8,Module 1,Lab,site/slide-videos/p05-06.mp4,DATA209 Practical 5-6: Image pixels and audio waveforms | Advanced Exploratory Data Analysis,"Practical 5-6: Image pixels and audio waveforms
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 1: Statistical and Data Foundations.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",4.5
+9,Module 2,Lecture,site/slide-videos/l07-08.mp4,DATA209 Lectures 7-8: Non-graphical vs graphical EDA (Superstore) | Advanced Exploratory Data Analys,"Lectures 7-8: Non-graphical vs graphical EDA (Superstore)
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",22.8
-6,Module 2,Lab,site/slide-videos/p07-08.mp4,DATA209 Practical 7-8: Univariate EDA on Superstore | Advanced Exploratory Data Analysis,"Practical 7-8: Univariate EDA on Superstore
+10,Module 2,Lab,site/slide-videos/p07-08.mp4,DATA209 Practical 7-8: Univariate EDA on Superstore | Advanced Exploratory Data Analysis,"Practical 7-8: Univariate EDA on Superstore
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",10.2
-7,Module 2,Lecture,site/slide-videos/l09-10.mp4,DATA209 Lectures 9-10: Bivariate analysis | Advanced Exploratory Data Analysis,"Lectures 9-10: Bivariate analysis
+11,Module 2,Lecture,site/slide-videos/l09-10.mp4,DATA209 Lectures 9-10: Bivariate analysis | Advanced Exploratory Data Analysis,"Lectures 9-10: Bivariate analysis
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",11.4
-8,Module 2,Lab,site/slide-videos/p09-10.mp4,DATA209 Practical 9-10: Bivariate analysis in Python | Advanced Exploratory Data Analysis,"Practical 9-10: Bivariate analysis in Python
+12,Module 2,Lab,site/slide-videos/p09-10.mp4,DATA209 Practical 9-10: Bivariate analysis in Python | Advanced Exploratory Data Analysis,"Practical 9-10: Bivariate analysis in Python
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",9.0
-9,Module 2,Lecture,site/slide-videos/l11-12.mp4,"DATA209 Lectures 11-12: Multivariate analysis, VIF, K-means | Advanced Exploratory Data Analysis","Lectures 11-12: Multivariate analysis, VIF, K-means
+13,Module 2,Lecture,site/slide-videos/l11-12.mp4,"DATA209 Lectures 11-12: Multivariate analysis, VIF, K-means | Advanced Exploratory Data Analysis","Lectures 11-12: Multivariate analysis, VIF, K-means
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",10.2
-10,Module 2,Lab,site/slide-videos/p11-12.mp4,DATA209 Practical 11-12: Multivariate analysis lab | Advanced Exploratory Data Analysis,"Practical 11-12: Multivariate analysis lab
+14,Module 2,Lab,site/slide-videos/p11-12.mp4,DATA209 Practical 11-12: Multivariate analysis lab | Advanced Exploratory Data Analysis,"Practical 11-12: Multivariate analysis lab
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 2: Core Advanced EDA.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",7.1
-11,Module 3,Lab,site/slide-videos/p15-16.mp4,DATA209 Practical 15-16: Data quality and integration | Advanced Exploratory Data Analysis,"Practical 15-16: Data quality and integration
+15,Module 2,Lecture,site/slide-videos/l13-14.mp4,"DATA209 Lectures 13-14: Data visualization, from grammar to storytelling | Advanced Exploratory Data","Lectures 13-14: Data visualization, from grammar to storytelling
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 2: Core Advanced EDA.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",9.0
+16,Module 3,Lecture,site/slide-videos/l15-16.mp4,"DATA209 Lectures 15-16: Data quality, integration and validation | Advanced Exploratory Data Analysi","Lectures 15-16: Data quality, integration and validation
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 3: Data Quality and Anomaly Management.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
+
+Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
+
+#DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",9.0
+17,Module 3,Lab,site/slide-videos/p15-16.mp4,DATA209 Practical 15-16: Data quality and integration | Advanced Exploratory Data Analysis,"Practical 15-16: Data quality and integration
+
+DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
+Module 3: Data Quality and Anomaly Management.
+
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",20.4
-12,Module 3,Lecture,site/slide-videos/l17-18.mp4,DATA209 Lectures 17-18 and Practical 17-18: Missing values | Advanced Exploratory Data Analysis,"Lectures 17-18 and Practical 17-18: Missing values
+18,Module 3,Lecture,site/slide-videos/l17-18.mp4,DATA209 Lectures 17-18 and Practical 17-18: Missing values | Advanced Exploratory Data Analysis,"Lectures 17-18 and Practical 17-18: Missing values
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 3: Data Quality and Anomaly Management.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",16.5
-13,Module 3,Lecture,site/slide-videos/l19-20.mp4,DATA209 Lectures 19-20 and Practical 19-20: Outliers | Advanced Exploratory Data Analysis,"Lectures 19-20 and Practical 19-20: Outliers
+19,Module 3,Lecture,site/slide-videos/l19-20.mp4,DATA209 Lectures 19-20 and Practical 19-20: Outliers | Advanced Exploratory Data Analysis,"Lectures 19-20 and Practical 19-20: Outliers
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 3: Data Quality and Anomaly Management.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",28.9
-14,Module 3,Lecture,site/slide-videos/l21-22.mp4,DATA209 Lectures 21-22 and Practical 21-22: Encoding and imbalance | Advanced Exploratory Data Analy,"Lectures 21-22 and Practical 21-22: Encoding and imbalance
+20,Module 3,Lecture,site/slide-videos/l21-22.mp4,DATA209 Lectures 21-22 and Practical 21-22: Encoding and imbalance | Advanced Exploratory Data Analy,"Lectures 21-22 and Practical 21-22: Encoding and imbalance
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 3: Data Quality and Anomaly Management.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",14.9
-15,Module 4,Lecture,site/slide-videos/l23-24.mp4,DATA209 Lectures 23-24: Transformation and scaling | Advanced Exploratory Data Analysis,"Lectures 23-24: Transformation and scaling
+21,Module 4,Lecture,site/slide-videos/l23-24.mp4,DATA209 Lectures 23-24: Transformation and scaling | Advanced Exploratory Data Analysis,"Lectures 23-24: Transformation and scaling
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",19.1
-16,Module 4,Lecture,site/slide-videos/l25-26.mp4,DATA209 Lectures 25-26: Feature engineering and selection | Advanced Exploratory Data Analysis,"Lectures 25-26: Feature engineering and selection
+22,Module 4,Lecture,site/slide-videos/l25-26.mp4,DATA209 Lectures 25-26: Feature engineering and selection | Advanced Exploratory Data Analysis,"Lectures 25-26: Feature engineering and selection
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",18.4
-17,Module 4,Lab,site/slide-videos/p25-26.mp4,DATA209 Practical 25-26: Feature engineering and selection lab | Advanced Exploratory Data Analysis,"Practical 25-26: Feature engineering and selection lab
+23,Module 4,Lab,site/slide-videos/p25-26.mp4,DATA209 Practical 25-26: Feature engineering and selection lab | Advanced Exploratory Data Analysis,"Practical 25-26: Feature engineering and selection lab
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",17.6
-18,Module 4,Lecture,site/slide-videos/l27-28.mp4,DATA209 Lectures 27-28: Dimensionality reduction | Advanced Exploratory Data Analysis,"Lectures 27-28: Dimensionality reduction
+24,Module 4,Lecture,site/slide-videos/l27-28.mp4,DATA209 Lectures 27-28: Dimensionality reduction | Advanced Exploratory Data Analysis,"Lectures 27-28: Dimensionality reduction
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",8.6
-19,Module 4,Lab,site/slide-videos/p27-28.mp4,DATA209 Practical 27-28: PCA lab | Advanced Exploratory Data Analysis,"Practical 27-28: PCA lab
+25,Module 4,Lab,site/slide-videos/p27-28.mp4,DATA209 Practical 27-28: PCA lab | Advanced Exploratory Data Analysis,"Practical 27-28: PCA lab
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",7.9
-20,Module 4,Lecture,site/slide-videos/l29-30.mp4,DATA209 Lectures 29-30: From EDA to a pipeline | Advanced Exploratory Data Analysis,"Lectures 29-30: From EDA to a pipeline
+26,Module 4,Lecture,site/slide-videos/l29-30.mp4,DATA209 Lectures 29-30: From EDA to a pipeline | Advanced Exploratory Data Analysis,"Lectures 29-30: From EDA to a pipeline
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
 #DATA209 #EDA #DataScience","DATA209, exploratory data analysis, EDA, data science, Python, pandas, Vidyashilp University",10.8
-21,Module 4,Lab,site/slide-videos/p29-30.mp4,DATA209 Practical 29-30: Pipeline lab | Advanced Exploratory Data Analysis,"Practical 29-30: Pipeline lab
+27,Module 4,Lab,site/slide-videos/p29-30.mp4,DATA209 Practical 29-30: Pipeline lab | Advanced Exploratory Data Analysis,"Practical 29-30: Pipeline lab
 
 DATA209 Advanced Exploratory Data Analysis, B.Tech (Hons.) Data Science, Semester III, School of Engineering and Technology, Vidyashilp University.
 Module 4: Feature Engineering, Transformation and Structure.
 
-This video steps through the course slides with an Indian-English synthetic voice reading the prose on each slide. Code and tables stay on screen, so pause to read them.
+This video explains the course slides one by one in detail, with an Indian-English synthetic voice.
 
 Study site and notes: https://shitalbhatt.github.io/data209-study-materialsnew/
 
