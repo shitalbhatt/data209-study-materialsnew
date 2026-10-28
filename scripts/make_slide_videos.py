@@ -5,7 +5,7 @@ SRC_DIR holds the PDFs named in VIDEOS. Needs poppler (pdftoppm, pdftotext), ffm
 Set VOICE=edge for the Indian English female voice (en-IN-NeerjaNeural); run with only a few video ids to rebuild just those.
 The narration is the prose on each slide read by the voice; code, tables and numbers stay on screen only.
 """
-import concurrent.futures as cf, html, pathlib, re, shutil, subprocess, sys, tempfile
+import concurrent.futures as cf, html, json, pathlib, re, shutil, subprocess, sys, tempfile
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from tts import speak
 
@@ -65,6 +65,13 @@ def narration(lines):
         text += "."
     return text or "Study the code and output on this slide."
 
+def written_narration(tag, n):
+    """Hand-written explanation for slide n of video tag (scripts/narration/<tag>.json), or None."""
+    f = pathlib.Path(__file__).resolve().parent / "narration" / f"{tag}.json"
+    if f.exists():
+        return json.loads(f.read_text()).get(str(n))
+    return None
+
 def dur(f):
     r = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)], capture_output=True, text=True)
     return float(r.stdout)
@@ -74,7 +81,7 @@ def make_segment(args):
     base = tmp / f"{tag}-{n:03d}"
     run(["pdftoppm", "-f", str(n), "-l", str(n), "-png", "-singlefile", "-scale-to-x", str(W), "-scale-to-y", "-1", str(pdf), str(base)])
     wav, seg = base.with_suffix(".wav"), base.with_suffix(".mp4")
-    speak(narration(page_text(pdf, n)), wav, 155)
+    speak(written_narration(tag, n) or narration(page_text(pdf, n)), wav, 155)
     t = max(4.0, dur(wav) + 1.0)
     run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "5", "-i", str(base.with_suffix(".png")), "-i", str(wav),
          "-t", f"{t:.2f}", "-af", "apad", "-vf", f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=white,fps=5,format=yuv420p",
