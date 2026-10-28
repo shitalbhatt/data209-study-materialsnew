@@ -19,12 +19,18 @@ VIDEOS = [
  ("l02", "Module 1", "Lecture 2: Distributions, summary statistics, robustness", "DATA209_Lectures_1-6_Slides_Corrected.pdf", 25, 39),
  ("l03-04", "Module 1", "Lectures 3-4: Data types and structures", "DATA209_Lectures_1-6_Slides_Corrected.pdf", 40, 49),
  ("l05-06", "Module 1", "Lectures 5-6: Images, audio, dimensionality, ethics", "DATA209_Lectures_1-6_Slides_Corrected.pdf", 50, 68),
+ ("p01-02", "Module 1", "Practical 1-2: Framing, loading and describing data", "LAB1_2.pdf", 1, None),
+ ("p01-02b", "Module 1", "Practical 1-2: Worked example on California Housing", "California_Housing_EDA_updated.pdf", 1, None),
+ ("p03-04", "Module 1", "Practical 3-4: Spotting data types and structure", "dataset-types.pdf", 1, None),
+ ("p05-06", "Module 1", "Practical 5-6: Image pixels and audio waveforms", "practical5-6-image-audio.pdf", 1, None),
  ("l07-08", "Module 2", "Lectures 7-8: Non-graphical vs graphical EDA (Superstore)", "L7-8_NonGraphical_vs_Graphical_Superstore.pdf", 1, None),
  ("p07-08", "Module 2", "Practical 7-8: Univariate EDA on Superstore", "P7-8_Univariate_EDA_Superstore.pdf", 1, None),
  ("l09-10", "Module 2", "Lectures 9-10: Bivariate analysis", "L9_10_Bivariate_Analysis_Lecture.pdf", 1, None),
  ("p09-10", "Module 2", "Practical 9-10: Bivariate analysis in Python", "P9_10_Bivariate_Analysis_Lab.pdf", 1, None),
  ("l11-12", "Module 2", "Lectures 11-12: Multivariate analysis, VIF, K-means", "L11_12_Multivariate_Analysis_Lecture.pdf", 1, None),
  ("p11-12", "Module 2", "Practical 11-12: Multivariate analysis lab", "P11_12_Multivariate_Analysis_Lab.pdf", 1, None),
+ ("l13-14", "Module 2", "Lectures 13-14: Data visualization, from grammar to storytelling", "L13-14_Data_Visualization_Grammar_to_Storytelling.pdf", 1, None),
+ ("l15-16", "Module 3", "Lectures 15-16: Data quality, integration and validation", "L15-16_Data_Quality_Integration_and_Validation.pdf", 1, None),
  ("p15-16", "Module 3", "Practical 15-16: Data quality and integration", "DATA209_Lab_P15-16_Data_Quality_Integration.pdf", 1, None),
  ("l17-18", "Module 3", "Lectures 17-18 and Practical 17-18: Missing values", "Missing_Values_L17-18_P17-18_1_.pdf", 1, None),
  ("l19-20", "Module 3", "Lectures 19-20 and Practical 19-20: Outliers", "Outliers_L19-20_P19-20.pdf", 1, None),
@@ -101,6 +107,8 @@ def build(vid, pdf, first, last, tmp, pool):
 def main():
     src = pathlib.Path(sys.argv[1])
     only = set(sys.argv[2:])
+    if only == {"--page"}:
+        write_page(rows_from_disk(src)); return
     OUT.mkdir(parents=True, exist_ok=True)
     rows = []
     with tempfile.TemporaryDirectory() as t, cf.ThreadPoolExecutor(4) as pool:
@@ -113,13 +121,17 @@ def main():
             print(vid, f"{n} slides, {secs / 60:.1f} min", flush=True)
     if only:
         return
+    write_page(rows)
+
+
+def write_page(rows):
     page = ['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">',
             '<title>DATA209 Lecture and Lab Videos</title><style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;line-height:1.5}',
             'h2{margin-top:2.2rem;border-bottom:1px solid #8884;padding-bottom:.3rem}video{width:100%;border-radius:8px;background:#000}',
             'details{margin:.6rem 0}summary{cursor:pointer;font-weight:600;padding:.3rem 0}small{color:#888;font-weight:400}</style></head><body>',
-            '<p><a href="index.html">&larr; Study guide</a> &middot; <a href="videos.html">Short summary videos</a></p>',
+            '<p><a href="index.html">&larr; Study guide</a> &middot; <a href="videos.html">Short summary videos</a> &middot; <a href="shorts.html">Shorts</a></p>',
             '<h1>DATA209 lecture and lab videos</h1>',
-            '<p>Each video explains the real course slides one by one, in detail, with an Indian-English synthetic voice. Pause on a slide to study its code and tables.</p>']
+            '<p>Each video explains the real course slides one by one, in detail, with an Indian-English synthetic voice. Pause on a slide to study its code and tables. Slide decks for Lectures 13-14 and 15-16: <a href="decks/L13-14_Data_Visualization_Grammar_to_Storytelling.pptx">L13-14 PPT</a> &middot; <a href="decks/L15-16_Data_Quality_Integration_and_Validation.pptx">L15-16 PPT</a>.</p>']
     cur = None
     for vid, group, title, secs, n in rows:
         if group != cur:
@@ -128,6 +140,18 @@ def main():
                     f'<video controls preload="none" src="slide-videos/{vid}.mp4"></video></details>')
     page.append("</body></html>")
     (ROOT / "site" / "slide-videos.html").write_text("\n".join(page))
+
+
+def rows_from_disk(src):
+    rows = []
+    for vid, group, title, pdfname, a, b in VIDEOS:
+        f = OUT / f"{vid}.mp4"
+        if not f.exists():
+            continue
+        total = int(re.search(r"Pages:\s+(\d+)", run(["pdfinfo", str(src / pdfname)], capture_output=True, text=True).stdout).group(1))
+        rows.append((vid, group, title, dur(f), (b or total) - a + 1))
+    return rows
+
 
 if __name__ == "__main__":
     main()
