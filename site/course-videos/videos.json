@@ -1,5 +1,5 @@
 {
- "note": "Paste YouTube video IDs (the part after youtu.be/) into youtubeId, or run scripts/fill_youtube_links.py. Empty means 'coming soon'.",
+ "note": "Videos play on this page from the files listed in 'file'. Paste YouTube video IDs into youtubeId (or run scripts/fill_youtube_links.py) to add the YouTube links.",
  "playlists": [
   {
    "title": "Course Guides - Roadmap, Assignments, Revision and Exams",
@@ -68,8 +68,10 @@
     "title": "Here is the whole EDA course on one page.",
     "minutes": "0:24",
     "publish": "2026-11-17",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/C00_Course_Introduction_and_Roadmap_DATA209.mp4"
+   },
+   "file": "course-videos/videos/C00_Course_Introduction_and_Roadmap_DATA209.mp4"
   },
   {
    "id": "L01_Why_We_Explore_Before_We_Conclude",
@@ -180,8 +182,10 @@
     "title": "More data fixes noise, but it never fixes bias.",
     "minutes": "0:22",
     "publish": "2026-11-19",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L01_Why_We_Explore_Before_We_Conclude.mp4"
+   },
+   "file": "course-videos/videos/L01_Why_We_Explore_Before_We_Conclude.mp4"
   },
   {
    "id": "L02_Distributions_Summaries_Robust_Statistics",
@@ -260,8 +264,10 @@
     "title": "One salary of 400 can more than double your average.",
     "minutes": "0:22",
     "publish": "2026-11-21",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L02_Distributions_Summaries_Robust_Statistics.mp4"
+   },
+   "file": "course-videos/videos/L02_Distributions_Summaries_Robust_Statistics.mp4"
   },
   {
    "id": "P01-02_Lab_Framing_Loading_and_Describing_Data",
@@ -324,8 +330,10 @@
     "title": "Start every analysis with a question, not with code.",
     "minutes": "0:20",
     "publish": "2026-11-24",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P01-02_Lab_Framing_Loading_and_Describing_Data.mp4"
+   },
+   "file": "course-videos/videos/P01-02_Lab_Framing_Loading_and_Describing_Data.mp4"
   },
   {
    "id": "P01-02_Worked_Example_California_Housing",
@@ -404,8 +412,10 @@
     "title": "Do your numbers and your graphs agree?",
     "minutes": "0:20",
     "publish": "2026-11-26",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P01-02_Worked_Example_California_Housing.mp4"
+   },
+   "file": "course-videos/videos/P01-02_Worked_Example_California_Housing.mp4"
   },
   {
    "id": "L03-04_Data_Types_and_Structures",
@@ -464,8 +474,10 @@
     "title": "Why is temperature interval but income ratio?",
     "minutes": "0:20",
     "publish": "2026-11-28",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L03-04_Data_Types_and_Structures.mp4"
+   },
+   "file": "course-videos/videos/L03-04_Data_Types_and_Structures.mp4"
   },
   {
    "id": "P03-04_Lab_Spotting_Data_Types_and_Structure",
@@ -520,8 +532,10 @@
     "title": "Can you identify every column type in 30 seconds?",
     "minutes": "0:21",
     "publish": "2026-12-01",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P03-04_Lab_Spotting_Data_Types_and_Structure.mp4"
+   },
+   "file": "course-videos/videos/P03-04_Lab_Spotting_Data_Types_and_Structure.mp4"
   },
   {
    "id": "L05-06_Images_Audio_Dimensionality_and_Ethics",
@@ -616,8 +630,10 @@
     "title": "More features can make your model worse.",
     "minutes": "0:19",
     "publish": "2026-12-03",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L05-06_Images_Audio_Dimensionality_and_Ethics.mp4"
+   },
+   "file": "course-videos/videos/L05-06_Images_Audio_Dimensionality_and_Ethics.mp4"
   },
   {
    "id": "P05-06_Lab_Image_Pixels_and_Audio_Waveforms",
@@ -664,8 +680,10 @@
     "title": "An image is just a grid of numbers.",
     "minutes": "0:18",
     "publish": "2026-12-05",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P05-06_Lab_Image_Pixels_and_Audio_Waveforms.mp4"
+   },
+   "file": "course-videos/videos/P05-06_Lab_Image_Pixels_and_Audio_Waveforms.mp4"
   },
   {
    "id": "R1_Module_1_Revision_Foundations",
@@ -712,8 +730,10 @@
     "title": "Mean 95, median 39. What does that tell you?",
     "minutes": "0:19",
     "publish": "2026-12-08",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/R1_Module_1_Revision_Foundations.mp4"
+   },
+   "file": "course-videos/videos/R1_Module_1_Revision_Foundations.mp4"
   },
   {
    "id": "L07_Non_Graphical_EDA_Superstore",
@@ -784,8 +804,10 @@
     "title": "The average profit is positive, yet half the orders lose money.",
     "minutes": "0:22",
     "publish": "2026-12-10",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L07_Non_Graphical_EDA_Superstore.mp4"
+   },
+   "file": "course-videos/videos/L07_Non_Graphical_EDA_Superstore.mp4"
   },
   {
    "id": "L08_Graphical_EDA_Categorical_and_Anomalies",
@@ -896,8 +918,10 @@
     "title": "Numbers tell you something is odd. Plots tell you what.",
     "minutes": "0:20",
     "publish": "2026-12-12",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L08_Graphical_EDA_Categorical_and_Anomalies.mp4"
+   },
+   "file": "course-videos/videos/L08_Graphical_EDA_Categorical_and_Anomalies.mp4"
   },
   {
    "id": "P07-08_Lab_Univariate_EDA_Superstore",
@@ -980,8 +1004,10 @@
     "title": "50.8 percent of orders lose money.",
     "minutes": "0:18",
     "publish": "2026-12-15",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P07-08_Lab_Univariate_EDA_Superstore.mp4"
+   },
+   "file": "course-videos/videos/P07-08_Lab_Univariate_EDA_Superstore.mp4"
   },
   {
    "id": "L09-10_Bivariate_Analysis",
@@ -1064,8 +1090,10 @@
     "title": "Pearson says minus 0.22. Spearman says minus 0.54.",
     "minutes": "0:24",
     "publish": "2026-12-17",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L09-10_Bivariate_Analysis.mp4"
+   },
+   "file": "course-videos/videos/L09-10_Bivariate_Analysis.mp4"
   },
   {
    "id": "P09-10_Lab_Bivariate_Analysis_in_Python",
@@ -1140,8 +1168,10 @@
     "title": "Six commands cover every pair of variables.",
     "minutes": "0:19",
     "publish": "2026-12-19",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P09-10_Lab_Bivariate_Analysis_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P09-10_Lab_Bivariate_Analysis_in_Python.mp4"
   },
   {
    "id": "L11-12_Multivariate_Analysis_VIF_and_Clustering",
@@ -1212,8 +1242,10 @@
     "title": "Two features can look uncorrelated and still be redundant.",
     "minutes": "0:21",
     "publish": "2026-12-22",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L11-12_Multivariate_Analysis_VIF_and_Clustering.mp4"
+   },
+   "file": "course-videos/videos/L11-12_Multivariate_Analysis_VIF_and_Clustering.mp4"
   },
   {
    "id": "P11-12_Lab_Multivariate_Analysis_in_Python",
@@ -1280,8 +1312,10 @@
     "title": "Cluster 1 loses 107 dollars per order.",
     "minutes": "0:18",
     "publish": "2026-12-24",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P11-12_Lab_Multivariate_Analysis_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P11-12_Lab_Multivariate_Analysis_in_Python.mp4"
   },
   {
    "id": "L13-14_Data_Visualization_Grammar_to_Storytelling_Lecture",
@@ -1336,8 +1370,10 @@
     "title": "Four datasets, same statistics, totally different pictures.",
     "minutes": "0:21",
     "publish": "2026-12-26",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L13-14_Data_Visualization_Grammar_to_Storytelling_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L13-14_Data_Visualization_Grammar_to_Storytelling_Lecture.mp4"
   },
   {
    "id": "P13-14_Lab_Data_Visualization_Grammar_to_Storytelling",
@@ -1392,8 +1428,10 @@
     "title": "A truncated axis can make a small gap look huge.",
     "minutes": "0:19",
     "publish": "2026-12-29",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P13-14_Lab_Data_Visualization_Grammar_to_Storytelling.mp4"
+   },
+   "file": "course-videos/videos/P13-14_Lab_Data_Visualization_Grammar_to_Storytelling.mp4"
   },
   {
    "id": "A1_Assignment_1_Guide_EDA_Mini_Project",
@@ -1436,8 +1474,10 @@
     "title": "Pair every statistic with a picture.",
     "minutes": "0:21",
     "publish": "2026-12-31",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/A1_Assignment_1_Guide_EDA_Mini_Project.mp4"
+   },
+   "file": "course-videos/videos/A1_Assignment_1_Guide_EDA_Mini_Project.mp4"
   },
   {
    "id": "R2_Module_2_Revision_Core_Advanced_EDA",
@@ -1488,8 +1528,10 @@
     "title": "Pearson says minus 0.22. Spearman says minus 0.54. Why?",
     "minutes": "0:22",
     "publish": "2027-01-02",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/R2_Module_2_Revision_Core_Advanced_EDA.mp4"
+   },
+   "file": "course-videos/videos/R2_Module_2_Revision_Core_Advanced_EDA.mp4"
   },
   {
    "id": "L15-16_Data_Quality_Integration_and_Validation_Lecture",
@@ -1544,8 +1586,10 @@
     "title": "A 10,000 dollar room passes every validity rule.",
     "minutes": "0:22",
     "publish": "2027-01-05",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L15-16_Data_Quality_Integration_and_Validation_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L15-16_Data_Quality_Integration_and_Validation_Lecture.mp4"
   },
   {
    "id": "P15-16_Lab_Data_Quality_Part_A_Audit_to_Validity",
@@ -1620,8 +1664,10 @@
     "title": "Five commands audit a whole dataset.",
     "minutes": "0:20",
     "publish": "2027-01-07",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P15-16_Lab_Data_Quality_Part_A_Audit_to_Validity.mp4"
+   },
+   "file": "course-videos/videos/P15-16_Lab_Data_Quality_Part_A_Audit_to_Validity.mp4"
   },
   {
    "id": "P15-16_Lab_Data_Quality_Part_B_Integration_to_Scale",
@@ -1696,8 +1742,10 @@
     "title": "Cleaning one column created 300 new duplicates.",
     "minutes": "0:17",
     "publish": "2027-01-09",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P15-16_Lab_Data_Quality_Part_B_Integration_to_Scale.mp4"
+   },
+   "file": "course-videos/videos/P15-16_Lab_Data_Quality_Part_B_Integration_to_Scale.mp4"
   },
   {
    "id": "L17-18_Missing_Values_Lecture_and_Lab",
@@ -1776,8 +1824,10 @@
     "title": "Never just fill missing values with the mean.",
     "minutes": "0:21",
     "publish": "2027-01-12",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L17-18_Missing_Values_Lecture_and_Lab.mp4"
+   },
+   "file": "course-videos/videos/L17-18_Missing_Values_Lecture_and_Lab.mp4"
   },
   {
    "id": "L19-20_Outliers_Lecture",
@@ -1868,8 +1918,10 @@
     "title": "Z-score missed 2,584 outliers that IQR caught.",
     "minutes": "0:20",
     "publish": "2027-01-14",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L19-20_Outliers_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L19-20_Outliers_Lecture.mp4"
   },
   {
    "id": "P19-20_Lab_Outliers_in_Python",
@@ -1944,8 +1996,10 @@
     "title": "Fixing outliers made the model four times better.",
     "minutes": "0:20",
     "publish": "2027-01-16",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P19-20_Lab_Outliers_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P19-20_Lab_Outliers_in_Python.mp4"
   },
   {
    "id": "L21-22_Encoding_and_Imbalanced_Classes_Lecture",
@@ -2016,8 +2070,10 @@
     "title": "Label encoding invents an order that does not exist.",
     "minutes": "0:20",
     "publish": "2027-01-19",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L21-22_Encoding_and_Imbalanced_Classes_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L21-22_Encoding_and_Imbalanced_Classes_Lecture.mp4"
   },
   {
    "id": "P21-22_Lab_Encoding_and_Imbalance_in_Python",
@@ -2072,8 +2128,10 @@
     "title": "Accuracy went down, and the model got better.",
     "minutes": "0:19",
     "publish": "2027-01-21",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P21-22_Lab_Encoding_and_Imbalance_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P21-22_Lab_Encoding_and_Imbalance_in_Python.mp4"
   },
   {
    "id": "A2_Assignment_2_Guide_Data_Quality_Mini_Project",
@@ -2116,8 +2174,10 @@
     "title": "Do not just say you cleaned the data. Show the numbers.",
     "minutes": "0:19",
     "publish": "2027-01-23",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/A2_Assignment_2_Guide_Data_Quality_Mini_Project.mp4"
+   },
+   "file": "course-videos/videos/A2_Assignment_2_Guide_Data_Quality_Mini_Project.mp4"
   },
   {
    "id": "R3_Module_3_Revision_Data_Quality_and_Anomalies",
@@ -2168,8 +2228,10 @@
     "title": "Can you explain why your data is missing?",
     "minutes": "0:18",
     "publish": "2027-01-26",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/R3_Module_3_Revision_Data_Quality_and_Anomalies.mp4"
+   },
+   "file": "course-videos/videos/R3_Module_3_Revision_Data_Quality_and_Anomalies.mp4"
   },
   {
    "id": "L23-24_Transformation_and_Scaling_Lecture",
@@ -2228,8 +2290,10 @@
     "title": "Transforming changes shape. Scaling changes units.",
     "minutes": "0:22",
     "publish": "2027-01-28",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L23-24_Transformation_and_Scaling_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L23-24_Transformation_and_Scaling_Lecture.mp4"
   },
   {
    "id": "P23-24_Lab_Transformation_and_Scaling_in_Python",
@@ -2312,8 +2376,10 @@
     "title": "Log made the symmetric column worse.",
     "minutes": "0:19",
     "publish": "2027-01-30",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P23-24_Lab_Transformation_and_Scaling_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P23-24_Lab_Transformation_and_Scaling_in_Python.mp4"
   },
   {
    "id": "L25_Feature_Engineering",
@@ -2400,8 +2466,10 @@
     "title": "Same model, better features, plus 0.05 AUC.",
     "minutes": "0:21",
     "publish": "2027-02-02",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L25_Feature_Engineering.mp4"
+   },
+   "file": "course-videos/videos/L25_Feature_Engineering.mp4"
   },
   {
    "id": "L26_Feature_Selection",
@@ -2452,8 +2520,10 @@
     "title": "10 features scored as well as 85.",
     "minutes": "0:20",
     "publish": "2027-02-04",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L26_Feature_Selection.mp4"
+   },
+   "file": "course-videos/videos/L26_Feature_Selection.mp4"
   },
   {
    "id": "P25_Lab_Feature_Engineering_in_Python",
@@ -2524,8 +2594,10 @@
     "title": "One line of code made buyers 14 times easier to spot.",
     "minutes": "0:24",
     "publish": "2027-02-06",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P25_Lab_Feature_Engineering_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P25_Lab_Feature_Engineering_in_Python.mp4"
   },
   {
    "id": "P26_Lab_Feature_Selection_in_Python",
@@ -2588,8 +2660,10 @@
     "title": "Which features do all six methods agree on?",
     "minutes": "0:17",
     "publish": "2027-02-09",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P26_Lab_Feature_Selection_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P26_Lab_Feature_Selection_in_Python.mp4"
   },
   {
    "id": "L27-28_Dimensionality_Reduction_Lecture",
@@ -2672,8 +2746,10 @@
     "title": "Without scaling, PC1 explains 95 percent just because of units.",
     "minutes": "0:23",
     "publish": "2027-02-11",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L27-28_Dimensionality_Reduction_Lecture.mp4"
+   },
+   "file": "course-videos/videos/L27-28_Dimensionality_Reduction_Lecture.mp4"
   },
   {
    "id": "P27-28_Lab_PCA_in_Python",
@@ -2744,8 +2820,10 @@
     "title": "Thirty features became two numbers.",
     "minutes": "0:18",
     "publish": "2027-02-13",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P27-28_Lab_PCA_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P27-28_Lab_PCA_in_Python.mp4"
   },
   {
    "id": "L29_Testing_Honestly_Hypotheses_CV_and_Leakage",
@@ -2800,8 +2878,10 @@
     "title": "A recall of 0.99 that was completely fake.",
     "minutes": "0:21",
     "publish": "2027-02-16",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L29_Testing_Honestly_Hypotheses_CV_and_Leakage.mp4"
+   },
+   "file": "course-videos/videos/L29_Testing_Honestly_Hypotheses_CV_and_Leakage.mp4"
   },
   {
    "id": "L30_Reporting_Honestly_Skewed_Data_and_Insights",
@@ -2848,8 +2928,10 @@
     "title": "A model that always says no is 84 percent accurate.",
     "minutes": "0:20",
     "publish": "2027-02-18",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/L30_Reporting_Honestly_Skewed_Data_and_Insights.mp4"
+   },
+   "file": "course-videos/videos/L30_Reporting_Honestly_Skewed_Data_and_Insights.mp4"
   },
   {
    "id": "P29_Lab_Full_Pipeline_in_Python",
@@ -2916,8 +2998,10 @@
     "title": "Leaky recall 0.99. Honest recall 0.66.",
     "minutes": "0:22",
     "publish": "2027-02-20",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P29_Lab_Full_Pipeline_in_Python.mp4"
+   },
+   "file": "course-videos/videos/P29_Lab_Full_Pipeline_in_Python.mp4"
   },
   {
    "id": "P30_Lab_Industry_Style_Submission",
@@ -2956,8 +3040,10 @@
     "title": "Would a manager understand your notebook?",
     "minutes": "0:21",
     "publish": "2027-02-23",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/P30_Lab_Industry_Style_Submission.mp4"
+   },
+   "file": "course-videos/videos/P30_Lab_Industry_Style_Submission.mp4"
   },
   {
    "id": "R4_Module_4_Revision_Features_Transformation_Pipeline",
@@ -3008,8 +3094,10 @@
     "title": "Why does MinMax squeeze 96 percent of values below 0.1?",
     "minutes": "0:20",
     "publish": "2027-02-25",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/R4_Module_4_Revision_Features_Transformation_Pipeline.mp4"
+   },
+   "file": "course-videos/videos/R4_Module_4_Revision_Features_Transformation_Pipeline.mp4"
   },
   {
    "id": "LA_Lab_Assessment_Preparation_EDA_Checklist",
@@ -3052,8 +3140,10 @@
     "title": "Never start a lab exam from a blank page.",
     "minutes": "0:19",
     "publish": "2027-02-27",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/LA_Lab_Assessment_Preparation_EDA_Checklist.mp4"
+   },
+   "file": "course-videos/videos/LA_Lab_Assessment_Preparation_EDA_Checklist.mp4"
   },
   {
    "id": "FP_Final_Project_Guide_From_Data_to_Insights",
@@ -3104,8 +3194,10 @@
     "title": "One focused question, done well.",
     "minutes": "0:17",
     "publish": "2027-03-02",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/FP_Final_Project_Guide_From_Data_to_Insights.mp4"
+   },
+   "file": "course-videos/videos/FP_Final_Project_Guide_From_Data_to_Insights.mp4"
   },
   {
    "id": "W_Complete_EDA_Workflow_in_One_Video",
@@ -3148,8 +3240,10 @@
     "title": "Thirty lectures in twelve steps.",
     "minutes": "0:22",
     "publish": "2027-03-04",
-    "youtubeId": ""
-   }
+    "youtubeId": "",
+    "file": "course-videos/shorts/W_Complete_EDA_Workflow_in_One_Video.mp4"
+   },
+   "file": "course-videos/videos/W_Complete_EDA_Workflow_in_One_Video.mp4"
   }
  ]
 }

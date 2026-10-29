@@ -28,20 +28,24 @@
     return parseInt(p[2], 10) + ' ' + m[parseInt(p[1], 10) - 1] + ' ' + p[0];
   }
   function today() { return new Date().toISOString().slice(0, 10); }
-  function status(pub) { return pub <= today() ? 'Coming soon' : 'Scheduled for ' + pretty(pub); }
+  function status(pub) { return pub <= today() ? 'coming soon' : 'scheduled for ' + pretty(pub); }
   function secs(m) { var p = m.split(':'); return parseInt(p[0], 10) * 60 + parseInt(p[1], 10); }
 
   function media(v) {
     var box = el('div', { 'class': 'cv-media' });
-    var img = el('img', { src: v.thumb, alt: v.title, loading: 'lazy' });
-    box.appendChild(img);
+    box.appendChild(el('img', { src: v.thumb, alt: v.title, loading: 'lazy' }));
     box.appendChild(el('span', { 'class': 'cv-dur', text: v.minutes }));
-    if (v.youtubeId) {
-      var btn = el('button', { 'class': 'cv-play', type: 'button', 'aria-label': 'Play ' + v.title }, [el('span', { text: '▶' })]);
+    if (v.file || v.youtubeId) {
+      var btn = el('button', { 'class': 'cv-play', type: 'button', 'aria-label': 'Play ' + v.title }, [el('span', { text: '\u25B6' })]);
       btn.addEventListener('click', function () {
-        var f = el('iframe', { src: 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v.youtubeId) + '?autoplay=1&rel=0',
-          title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture', allowfullscreen: '' });
-        box.textContent = ''; box.appendChild(f);
+        var player;
+        if (v.file) {
+          player = el('video', { controls: '', autoplay: '', playsinline: '', preload: 'auto', poster: v.thumb, src: v.file });
+        } else {
+          player = el('iframe', { src: 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v.youtubeId) + '?autoplay=1&rel=0',
+            title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture', allowfullscreen: '' });
+        }
+        box.textContent = ''; box.appendChild(player);
       });
       box.appendChild(btn);
     }
@@ -60,14 +64,21 @@
       body.appendChild(el('details', {}, [el('summary', { text: 'Chapters (' + v.chapters.length + ')' }), ol]));
     }
     var act = el('div', { 'class': 'cv-actions' });
+    if (v.file) act.appendChild(el('a', { 'class': 'cv-dl', href: v.file, download: '', text: 'Download MP4' }));
     act.appendChild(v.youtubeId
       ? el('a', { 'class': 'cv-btn', href: ytUrl(v.youtubeId), target: '_blank', rel: 'noopener', text: 'Watch on YouTube' })
-      : el('span', { 'class': 'cv-soon', text: status(v.publish) }));
+      : el('span', { 'class': 'cv-soon', text: 'YouTube: ' + status(v.publish).replace(/^./, function (c) { return c.toLowerCase(); }) }));
     if (v.short) {
       var s = v.short;
-      act.appendChild(el('div', { 'class': 'cv-short' }, s.youtubeId
-        ? [document.createTextNode('Short (' + s.minutes + '): '), el('a', { href: 'https://www.youtube.com/shorts/' + encodeURIComponent(s.youtubeId), target: '_blank', rel: 'noopener', text: s.title })]
-        : [document.createTextNode('Short (' + s.minutes + '): ' + s.title + ' · ' + status(s.publish).replace(/^./, function (c) { return c.toLowerCase(); }))]));
+      var sd = el('details', { 'class': 'cv-short' }, [el('summary', { text: 'Short (' + s.minutes + '): ' + s.title })]);
+      var holder = el('div', { 'class': 'cv-shortbox' });
+      sd.appendChild(holder);
+      sd.addEventListener('toggle', function () {
+        if (sd.open && !holder.firstChild && s.file) holder.appendChild(el('video', { controls: '', playsinline: '', preload: 'metadata', src: s.file }));
+        if (!sd.open) { var vid = holder.querySelector('video'); if (vid) vid.pause(); }
+      });
+      if (s.youtubeId) sd.appendChild(el('a', { href: 'https://www.youtube.com/shorts/' + encodeURIComponent(s.youtubeId), target: '_blank', rel: 'noopener', text: 'Watch this Short on YouTube' }));
+      act.appendChild(sd);
     }
     body.appendChild(act);
     return el('article', { 'class': 'cv-card' }, [media(v), body]);
@@ -100,7 +111,7 @@
     var live = data.videos.filter(function (v) { return v.youtubeId; }).length;
     var box = document.getElementById('cv-stats');
     [[data.videos.length, 'videos'], [data.videos.filter(function (v) { return v.short; }).length, 'Shorts'],
-     [(total / 3600).toFixed(1) + ' h', 'of teaching'], [live + '/' + data.videos.length, 'live on YouTube']].forEach(function (s) {
+     [(total / 3600).toFixed(1) + ' h', 'of teaching'], [data.videos.filter(function (v) { return v.file; }).length + '/' + data.videos.length, 'playable here'], [live + '/' + data.videos.length, 'on YouTube']].forEach(function (s) {
       box.appendChild(el('div', {}, [el('b', { text: String(s[0]) }), el('span', { text: s[1] })]));
     });
   }
