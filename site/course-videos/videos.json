@@ -30,7 +30,7 @@
    "title": "DATA209 Advanced Exploratory Data Analysis Course Roadmap: Modules, Assessment and Reading List",
    "summary": "what the course covers, the four outcomes, the 16-week schedule, how assessment works, the tools used and the books to read",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "5:01",
+   "minutes": "5:38",
    "publish": "2026-11-16",
    "chapters": [
     [
@@ -38,27 +38,27 @@
      "Introduction"
     ],
     [
-     "01:13",
+     "01:21",
      "Course outcomes"
     ],
     [
-     "01:41",
+     "01:53",
      "The four modules"
     ],
     [
-     "02:41",
+     "02:59",
      "Assessment"
     ],
     [
-     "03:44",
+     "04:10",
      "How to use these videos"
     ],
     [
-     "04:07",
+     "04:36",
      "Reading list"
     ],
     [
-     "04:34",
+     "05:07",
      "Summary"
     ]
    ],
@@ -66,7 +66,7 @@
    "youtubeId": "",
    "short": {
     "title": "Here is the whole EDA course on one page.",
-    "minutes": "0:24",
+    "minutes": "0:26",
     "publish": "2026-11-17",
     "youtubeId": "",
     "file": "course-videos/shorts/C00_Course_Introduction_and_Roadmap_DATA209.mp4"
@@ -80,7 +80,7 @@
    "title": "What is EDA? Exploratory vs Confirmatory Analysis, Sampling Bias and Bias-Variance",
    "summary": "what exploratory data analysis is, how it differs from confirmatory analysis, how sampling bias happens, and the bias-variance trade-off",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "9:07",
+   "minutes": "10:20",
    "publish": "2026-11-18",
    "chapters": [
     [
@@ -88,91 +88,91 @@
      "Introduction"
     ],
     [
-     "00:19",
+     "00:22",
      "Roadmap"
     ],
     [
-     "00:44",
+     "00:50",
      "The idea behind EDA"
     ],
     [
-     "01:07",
+     "01:15",
      "Role of EDA in the lifecycle"
     ],
     [
-     "01:29",
+     "01:39",
      "What EDA buys you"
     ],
     [
-     "01:57",
+     "02:11",
      "Worked example: Pima diabetes"
     ],
     [
-     "02:26",
+     "02:45",
      "Exploratory vs confirmatory"
     ],
     [
-     "02:57",
+     "03:20",
      "How professionals keep them apart"
     ],
     [
-     "03:26",
+     "03:53",
      "Population, frame, sample, estimate"
     ],
     [
-     "03:55",
+     "04:25",
      "Six ways samples go wrong"
     ],
     [
-     "04:18",
+     "04:52",
      "Two cases worth remembering"
     ],
     [
-     "04:49",
+     "05:27",
      "Bias and variance"
     ],
     [
-     "04:59",
+     "05:38",
      "The dartboard"
     ],
     [
-     "05:21",
+     "06:03",
      "Systematic vs random error"
     ],
     [
-     "05:44",
+     "06:29",
      "More data cures only one"
     ],
     [
-     "06:03",
+     "06:52",
      "Sense one: in your data"
     ],
     [
-     "06:30",
+     "07:21",
      "Sense two: in your model"
     ],
     [
-     "06:56",
+     "07:51",
      "Decomposing prediction error"
     ],
     [
-     "07:19",
+     "08:17",
      "The trade-off, drawn"
     ],
     [
-     "07:37",
+     "08:37",
      "Diagnosis"
     ],
     [
-     "08:00",
+     "09:03",
      "An important caution"
     ],
     [
-     "08:22",
+     "09:28",
      "Remember this much"
     ],
     [
-     "08:39",
+     "09:47",
      "Recap and practice"
     ]
    ],
@@ -180,7 +180,7 @@
    "youtubeId": "",
    "short": {
     "title": "More data fixes noise, but it never fixes bias.",
-    "minutes": "0:22",
+    "minutes": "0:25",
     "publish": "2026-11-19",
     "youtubeId": "",
     "file": "course-videos/shorts/L01_Why_We_Explore_Before_We_Conclude.mp4"
@@ -194,7 +194,7 @@
    "title": "Skewness, Kurtosis, Outliers and IQR Explained: Robust Statistics for EDA",
    "summary": "how to read the shape of a distribution, what skewness and kurtosis mean, how the 1.5 IQR fence finds outliers, and when to report median instead of mean",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "6:07",
+   "minutes": "6:51",
    "publish": "2026-11-20",
    "chapters": [
     [
@@ -202,59 +202,59 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:15",
      "Why shape matters"
     ],
     [
-     "00:40",
+     "00:45",
      "The vocabulary"
     ],
     [
-     "01:00",
+     "01:07",
      "Skewness"
     ],
     [
-     "01:23",
+     "01:33",
      "Skew pulls the mean"
     ],
     [
-     "01:47",
+     "02:00",
      "Kurtosis"
     ],
     [
-     "02:08",
+     "02:24",
      "Three kurtosis families"
     ],
     [
-     "02:31",
+     "02:49",
      "Outliers and the box plot"
     ],
     [
-     "03:02",
+     "03:25",
      "Before you delete anything"
     ],
     [
-     "03:28",
+     "03:53",
      "The summary statistics toolkit"
     ],
     [
-     "03:57",
+     "04:24",
      "Why robustness matters"
     ],
     [
-     "04:18",
+     "04:49",
      "A working rule"
     ],
     [
-     "04:41",
+     "05:15",
      "Remember this much"
     ],
     [
-     "05:04",
+     "05:41",
      "Six mistakes"
     ],
     [
-     "05:33",
+     "06:12",
      "Takeaways"
     ]
    ],
@@ -262,7 +262,7 @@
    "youtubeId": "",
    "short": {
     "title": "One salary of 400 can more than double your average.",
-    "minutes": "0:22",
+    "minutes": "0:24",
     "publish": "2026-11-21",
     "youtubeId": "",
     "file": "course-videos/shorts/L02_Distributions_Summaries_Robust_Statistics.mp4"
@@ -276,7 +276,7 @@
    "title": "EDA in Python: Load Data, Mean vs Median, Variance vs IQR, Histogram and Pivot Tables",
    "summary": "how to frame a problem, load a dataset, name dependent and independent variables, compare mean and median, variance and IQR, and build histograms, boxplots and pivot tables",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "4:19",
+   "minutes": "4:55",
    "publish": "2026-11-23",
    "chapters": [
     [
@@ -284,43 +284,43 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:16",
      "The path"
     ],
     [
-     "00:39",
+     "00:45",
      "Step 1: problem statement"
     ],
     [
-     "01:05",
+     "01:15",
      "Step 2: load and look"
     ],
     [
-     "01:29",
+     "01:43",
      "Step 3: dependent vs independent"
     ],
     [
-     "01:56",
+     "02:14",
      "Mean vs median"
     ],
     [
-     "02:18",
+     "02:37",
      "Variance vs IQR"
     ],
     [
-     "02:41",
+     "03:04",
      "Skewness"
     ],
     [
-     "02:57",
+     "03:22",
      "Three views"
     ],
     [
-     "03:19",
+     "03:47",
      "Pivot tables"
     ],
     [
-     "03:41",
+     "04:13",
      "Cheat sheet"
     ]
    ],
@@ -328,7 +328,7 @@
    "youtubeId": "",
    "short": {
     "title": "Start every analysis with a question, not with code.",
-    "minutes": "0:20",
+    "minutes": "0:23",
     "publish": "2026-11-24",
     "youtubeId": "",
     "file": "course-videos/shorts/P01-02_Lab_Framing_Loading_and_Describing_Data.mp4"
@@ -342,7 +342,7 @@
    "title": "California Housing EDA in Python: Skewness, Kurtosis, Outliers and Pivot Tables",
    "summary": "a complete univariate and pivot-table EDA on 20,640 California housing districts, comparing statistics with graphs",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "5:43",
+   "minutes": "6:24",
    "publish": "2026-11-25",
    "chapters": [
     [
@@ -350,59 +350,59 @@
      "Introduction"
     ],
     [
-     "00:16",
+     "00:18",
      "Problem statement"
     ],
     [
-     "00:44",
+     "00:51",
      "Step 1: load and clean"
     ],
     [
-     "01:11",
+     "01:21",
      "Step 2: variables"
     ],
     [
-     "01:37",
+     "01:50",
      "Univariate: median income"
     ],
     [
-     "02:05",
+     "02:21",
      "Plotting the charts"
     ],
     [
-     "02:24",
+     "02:43",
      "Housing median age"
     ],
     [
-     "02:44",
+     "03:06",
      "Total rooms"
     ],
     [
-     "03:06",
+     "03:29",
      "Population"
     ],
     [
-     "03:23",
+     "03:49",
      "Median house value"
     ],
     [
-     "03:47",
+     "04:15",
      "Summary table"
     ],
     [
-     "04:04",
+     "04:35",
      "Practical 2: pivot by ocean proximity"
     ],
     [
-     "04:31",
+     "05:05",
      "Pivot: proximity by income"
     ],
     [
-     "04:54",
+     "05:30",
      "Statistical vs graphical inference"
     ],
     [
-     "05:17",
+     "05:56",
      "Key takeaways"
     ]
    ],
@@ -410,7 +410,7 @@
    "youtubeId": "",
    "short": {
     "title": "Do your numbers and your graphs agree?",
-    "minutes": "0:20",
+    "minutes": "0:21",
     "publish": "2026-11-26",
     "youtubeId": "",
     "file": "course-videos/shorts/P01-02_Worked_Example_California_Housing.mp4"
@@ -424,7 +424,7 @@
    "title": "Data Types Explained: Nominal, Ordinal, Interval, Ratio, Discrete vs Continuous and Time Series",
    "summary": "the four measurement scales, discrete versus continuous data, structured versus semi-structured data, text data basics, and trend and seasonality",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "4:26",
+   "minutes": "4:59",
    "publish": "2026-11-27",
    "chapters": [
     [
@@ -432,39 +432,39 @@
      "Introduction"
     ],
     [
-     "00:16",
+     "00:19",
      "What we will cover"
     ],
     [
-     "00:43",
+     "00:49",
      "Nominal vs ordinal"
     ],
     [
-     "01:13",
+     "01:23",
      "Interval vs ratio"
     ],
     [
-     "01:43",
+     "01:56",
      "Quick recap"
     ],
     [
-     "02:02",
+     "02:16",
      "Discrete vs continuous"
     ],
     [
-     "02:27",
+     "02:45",
      "Structured vs semi-structured"
     ],
     [
-     "02:53",
+     "03:15",
      "Text data basics"
     ],
     [
-     "03:27",
+     "03:54",
      "Time-series behaviour"
     ],
     [
-     "03:55",
+     "04:25",
      "Key takeaways"
     ]
    ],
@@ -472,7 +472,7 @@
    "youtubeId": "",
    "short": {
     "title": "Why is temperature interval but income ratio?",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2026-11-28",
     "youtubeId": "",
     "file": "course-videos/shorts/L03-04_Data_Types_and_Structures.mp4"
@@ -486,7 +486,7 @@
    "title": "How to Identify Data Types in Your Dataset: Structured, Text and Time-Series Data",
    "summary": "a quick test to find the level of measurement, discrete or continuous, structured or semi-structured, text, and time-series behaviour in any column",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "3:46",
+   "minutes": "4:17",
    "publish": "2026-11-30",
    "chapters": [
     [
@@ -494,35 +494,35 @@
      "Introduction"
     ],
     [
-     "00:11",
+     "00:13",
      "What we will cover"
     ],
     [
-     "00:23",
+     "00:27",
      "Levels of measurement"
     ],
     [
-     "00:51",
+     "00:59",
      "Quick test"
     ],
     [
-     "01:21",
+     "01:33",
      "Discrete vs continuous"
     ],
     [
-     "01:47",
+     "02:02",
      "Structured vs semi-structured"
     ],
     [
-     "02:10",
+     "02:28",
      "Text data basics"
     ],
     [
-     "02:43",
+     "03:05",
      "Trend and seasonality"
     ],
     [
-     "03:09",
+     "03:35",
      "Cheat sheet"
     ]
    ],
@@ -530,7 +530,7 @@
    "youtubeId": "",
    "short": {
     "title": "Can you identify every column type in 30 seconds?",
-    "minutes": "0:21",
+    "minutes": "0:23",
     "publish": "2026-12-01",
     "youtubeId": "",
     "file": "course-videos/shorts/P03-04_Lab_Spotting_Data_Types_and_Structure.mp4"
@@ -544,7 +544,7 @@
    "title": "Curse of Dimensionality, Images and Audio as Data, and Bias in Data Science",
    "summary": "how images and audio become numbers, why more features can hurt, and how bias and ethical concerns enter data",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "7:34",
+   "minutes": "8:38",
    "publish": "2026-12-02",
    "chapters": [
     [
@@ -552,75 +552,75 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:17",
      "The unifying idea"
     ],
     [
-     "00:50",
+     "00:56",
      "Images"
     ],
     [
-     "01:18",
+     "01:27",
      "EDA on images"
     ],
     [
-     "01:43",
+     "01:56",
      "Audio"
     ],
     [
-     "02:17",
+     "02:34",
      "Curse of dimensionality"
     ],
     [
-     "02:26",
+     "02:45",
      "What is a dimension"
     ],
     [
-     "02:42",
+     "03:03",
      "Space explodes"
     ],
     [
-     "02:59",
+     "03:22",
      "Data becomes sparse"
     ],
     [
-     "03:13",
+     "03:39",
      "Distance loses meaning"
     ],
     [
-     "03:34",
+     "04:03",
      "A simple analogy"
     ],
     [
-     "03:58",
+     "04:30",
      "How to fight the curse"
     ],
     [
-     "04:24",
+     "04:59",
      "Key takeaway"
     ],
     [
-     "04:39",
+     "05:17",
      "High dimensions in one picture"
     ],
     [
-     "05:05",
+     "05:46",
      "Consequences"
     ],
     [
-     "05:37",
+     "06:24",
      "Data bias"
     ],
     [
-     "06:09",
+     "07:00",
      "Ethical concerns"
     ],
     [
-     "06:39",
+     "07:34",
      "Practical steps"
     ],
     [
-     "07:09",
+     "08:08",
      "Remember this much"
     ]
    ],
@@ -628,7 +628,7 @@
    "youtubeId": "",
    "short": {
     "title": "More features can make your model worse.",
-    "minutes": "0:19",
+    "minutes": "0:20",
     "publish": "2026-12-03",
     "youtubeId": "",
     "file": "course-videos/shorts/L05-06_Images_Audio_Dimensionality_and_Ethics.mp4"
@@ -642,7 +642,7 @@
    "title": "Image Pixel Histogram and Audio Waveform in Python (PIL, NumPy, SciPy)",
    "summary": "how to load an image as a NumPy array, plot its pixel histogram, read a wave file, and plot a waveform as a time series",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "2:49",
+   "minutes": "3:11",
    "publish": "2026-12-04",
    "chapters": [
     [
@@ -650,27 +650,27 @@
      "Introduction"
     ],
     [
-     "00:10",
+     "00:11",
      "Unstructured files are numbers"
     ],
     [
-     "00:38",
+     "00:43",
      "Practical 5: load the image"
     ],
     [
-     "01:00",
+     "01:07",
      "Reading the pixel histogram"
     ],
     [
-     "01:27",
+     "01:37",
      "Practical 6: audio waveform"
     ],
     [
-     "01:56",
+     "02:11",
      "The waveform is a time series"
     ],
     [
-     "02:18",
+     "02:36",
      "Recap"
     ]
    ],
@@ -678,7 +678,7 @@
    "youtubeId": "",
    "short": {
     "title": "An image is just a grid of numbers.",
-    "minutes": "0:18",
+    "minutes": "0:20",
     "publish": "2026-12-05",
     "youtubeId": "",
     "file": "course-videos/shorts/P05-06_Lab_Image_Pixels_and_Audio_Waveforms.mp4"
@@ -692,7 +692,7 @@
    "title": "Module 1 Revision: EDA Foundations, Distributions, Data Types and Data Bias (With Self-Test Questions)",
    "summary": "a recap of lectures 1 to 6 and five self-test questions on EDA foundations, robust statistics, data types, dimensionality and bias",
    "playlist": "Module 1 - Statistical and Data Foundations for EDA",
-   "minutes": "3:29",
+   "minutes": "3:56",
    "publish": "2026-12-07",
    "chapters": [
     [
@@ -700,27 +700,27 @@
      "Introduction"
     ],
     [
-     "00:17",
+     "00:19",
      "Lectures 1 and 2"
     ],
     [
-     "00:45",
+     "00:52",
      "Lectures 3 and 4"
     ],
     [
-     "01:13",
+     "01:24",
      "Lectures 5 and 6"
     ],
     [
-     "01:40",
+     "01:54",
      "Labs"
     ],
     [
-     "02:02",
+     "02:20",
      "Test yourself"
     ],
     [
-     "03:08",
+     "03:34",
      "Summary"
     ]
    ],
@@ -728,7 +728,7 @@
    "youtubeId": "",
    "short": {
     "title": "Mean 95, median 39. What does that tell you?",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2026-12-08",
     "youtubeId": "",
     "file": "course-videos/shorts/R1_Module_1_Revision_Foundations.mp4"
@@ -742,7 +742,7 @@
    "title": "Non-Graphical EDA in Python: Mean, Median, Std, Skewness and Kurtosis on the Superstore Dataset",
    "summary": "how to run missing-value checks, central tendency, dispersion and shape statistics on every numeric feature in one line each",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "4:53",
+   "minutes": "5:31",
    "publish": "2026-12-09",
    "chapters": [
     [
@@ -750,51 +750,51 @@
      "Introduction"
     ],
     [
-     "00:15",
+     "00:17",
      "The dataset"
     ],
     [
-     "00:49",
+     "00:55",
      "Numerical features"
     ],
     [
-     "01:16",
+     "01:25",
      "Categorical features"
     ],
     [
-     "01:40",
+     "01:52",
      "Missing value check"
     ],
     [
-     "01:53",
+     "02:07",
      "Missing value results"
     ],
     [
-     "02:11",
+     "02:27",
      "Central tendency"
     ],
     [
-     "02:32",
+     "02:51",
      "Central tendency results"
     ],
     [
-     "02:55",
+     "03:18",
      "Dispersion"
     ],
     [
-     "03:18",
+     "03:44",
      "Dispersion results"
     ],
     [
-     "03:45",
+     "04:13",
      "Shape"
     ],
     [
-     "04:08",
+     "04:40",
      "Shape results"
     ],
     [
-     "04:31",
+     "05:06",
      "Skewness ranked"
     ]
    ],
@@ -802,7 +802,7 @@
    "youtubeId": "",
    "short": {
     "title": "The average profit is positive, yet half the orders lose money.",
-    "minutes": "0:22",
+    "minutes": "0:25",
     "publish": "2026-12-10",
     "youtubeId": "",
     "file": "course-videos/shorts/L07_Non_Graphical_EDA_Superstore.mp4"
@@ -816,7 +816,7 @@
    "title": "Graphical EDA: Histogram, KDE, Boxplot, Violin, Bar and Pie Charts, Plus Outlier Detection",
    "summary": "eight plot types for numeric and categorical data, how to compare statistics with plots, and how the 1.5 IQR rule finds anomalies",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "9:13",
+   "minutes": "10:23",
    "publish": "2026-12-11",
    "chapters": [
     [
@@ -824,91 +824,91 @@
      "The histogram"
     ],
     [
-     "00:22",
+     "00:25",
      "Histograms of all six"
     ],
     [
-     "00:49",
+     "00:54",
      "The density plot"
     ],
     [
-     "01:09",
+     "01:18",
      "Density plots of all six"
     ],
     [
-     "01:33",
+     "01:45",
      "The boxplot"
     ],
     [
-     "02:00",
+     "02:15",
      "Boxplots of all six"
     ],
     [
-     "02:23",
+     "02:41",
      "The violin plot"
     ],
     [
-     "02:46",
+     "03:08",
      "Violin plots of all six"
     ],
     [
-     "03:13",
+     "03:38",
      "Distribution comparisons"
     ],
     [
-     "03:33",
+     "04:02",
      "Profit by product category"
     ],
     [
-     "03:54",
+     "04:26",
      "Shipping cost by ship mode"
     ],
     [
-     "04:12",
+     "04:47",
      "Comparison: unit price"
     ],
     [
-     "04:45",
+     "05:23",
      "Comparison: order quantity"
     ],
     [
-     "05:10",
+     "05:51",
      "The overall lesson"
     ],
     [
-     "05:39",
+     "06:23",
      "Frequency tables"
     ],
     [
-     "06:03",
+     "06:49",
      "Frequency tables of all three"
     ],
     [
-     "06:27",
+     "07:17",
      "The bar plot"
     ],
     [
-     "06:48",
+     "07:40",
      "Bar plots of all three"
     ],
     [
-     "07:05",
+     "08:00",
      "The pie chart"
     ],
     [
-     "07:27",
+     "08:24",
      "Product category pie"
     ],
     [
-     "07:45",
+     "08:44",
      "Detecting anomalies"
     ],
     [
-     "08:16",
+     "09:19",
      "Anomalies counted"
     ],
     [
-     "08:44",
+     "09:50",
      "Recap"
     ]
    ],
@@ -916,7 +916,7 @@
    "youtubeId": "",
    "short": {
     "title": "Numbers tell you something is odd. Plots tell you what.",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2026-12-12",
     "youtubeId": "",
     "file": "course-videos/shorts/L08_Graphical_EDA_Categorical_and_Anomalies.mp4"
@@ -930,7 +930,7 @@
    "title": "Univariate EDA in Python Step by Step: Superstore Dataset Walkthrough",
    "summary": "seven steps of univariate EDA: load, missing values, summary stats, robust stats, a business finding, comparing groups and frequencies",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "5:55",
+   "minutes": "6:40",
    "publish": "2026-12-14",
    "chapters": [
     [
@@ -938,63 +938,63 @@
      "Introduction"
     ],
     [
-     "00:16",
+     "00:17",
      "The dataset"
     ],
     [
-     "00:40",
+     "00:44",
      "Step 1: load and inspect"
     ],
     [
-     "01:02",
+     "01:10",
      "Step 2: missing values"
     ],
     [
-     "01:21",
+     "01:31",
      "Step 3: summary statistics"
     ],
     [
-     "01:40",
+     "01:53",
      "Summary results"
     ],
     [
-     "02:07",
+     "02:22",
      "Step 4: robust statistics"
     ],
     [
-     "02:32",
+     "02:50",
      "Outlier counts"
     ],
     [
-     "02:55",
+     "03:16",
      "Step 5: a business finding"
     ],
     [
-     "03:10",
+     "03:32",
      "Interpreting the finding"
     ],
     [
-     "03:43",
+     "04:10",
      "Step 6: compare distributions"
     ],
     [
-     "04:01",
+     "04:30",
      "Profit by category"
     ],
     [
-     "04:22",
+     "04:54",
      "Step 7: categorical frequencies"
     ],
     [
-     "04:40",
+     "05:14",
      "Frequency results"
     ],
     [
-     "05:00",
+     "05:37",
      "Pie chart"
     ],
     [
-     "05:22",
+     "06:02",
      "Recap"
     ]
    ],
@@ -1002,7 +1002,7 @@
    "youtubeId": "",
    "short": {
     "title": "50.8 percent of orders lose money.",
-    "minutes": "0:18",
+    "minutes": "0:20",
     "publish": "2026-12-15",
     "youtubeId": "",
     "file": "course-videos/shorts/P07-08_Lab_Univariate_EDA_Superstore.mp4"
@@ -1016,7 +1016,7 @@
    "title": "Bivariate Analysis: Correlation vs Covariance, Pearson vs Spearman, Cross-Tabs and Heatmaps",
    "summary": "how to analyse two variables together, covariance versus correlation, Pearson versus Spearman, cross-tabs, and common pitfalls like Simpson's paradox",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "7:00",
+   "minutes": "7:56",
    "publish": "2026-12-16",
    "chapters": [
     [
@@ -1024,63 +1024,63 @@
      "Introduction"
     ],
     [
-     "00:13",
+     "00:15",
      "Three pair types"
     ],
     [
-     "00:40",
+     "00:44",
      "Why two variables"
     ],
     [
-     "01:08",
+     "01:18",
      "Covariance"
     ],
     [
-     "01:38",
+     "01:53",
      "Correlation"
     ],
     [
-     "02:07",
+     "02:25",
      "Correlation is not causation"
     ],
     [
-     "02:29",
+     "02:50",
      "Spearman correlation"
     ],
     [
-     "02:58",
+     "03:22",
      "Scatterplots"
     ],
     [
-     "03:19",
+     "03:47",
      "Scatterplot gallery"
     ],
     [
-     "03:38",
+     "04:08",
      "Matrix and heatmap"
     ],
     [
-     "03:59",
+     "04:31",
      "Cross-tabulation"
     ],
     [
-     "04:26",
+     "05:02",
      "Reading a cross-tab"
     ],
     [
-     "04:52",
+     "05:32",
      "Comparing a number across groups"
     ],
     [
-     "05:17",
+     "06:00",
      "Which technique for which pair"
     ],
     [
-     "05:52",
+     "06:39",
      "Common pitfalls"
     ],
     [
-     "06:22",
+     "07:13",
      "Key takeaways"
     ]
    ],
@@ -1088,7 +1088,7 @@
    "youtubeId": "",
    "short": {
     "title": "Pearson says minus 0.22. Spearman says minus 0.54.",
-    "minutes": "0:24",
+    "minutes": "0:26",
     "publish": "2026-12-17",
     "youtubeId": "",
     "file": "course-videos/shorts/L09-10_Bivariate_Analysis.mp4"
@@ -1102,7 +1102,7 @@
    "title": "Correlation Matrix, Heatmap, Pairplot and Crosstab in Python (Seaborn Tutorial)",
    "summary": "how to build covariance and correlation matrices, heatmaps, pairplots, cross-tabs, grouped statistics and boxplots, and how to turn findings into hypotheses",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "4:52",
+   "minutes": "5:29",
    "publish": "2026-12-18",
    "chapters": [
     [
@@ -1110,55 +1110,55 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:16",
      "Setup"
     ],
     [
-     "00:27",
+     "00:31",
      "Identify feature types"
     ],
     [
-     "00:56",
+     "01:03",
      "Covariance matrix"
     ],
     [
-     "01:21",
+     "01:31",
      "Pearson and Spearman"
     ],
     [
-     "01:47",
+     "02:01",
      "Heatmap"
     ],
     [
-     "02:00",
+     "02:16",
      "Scatterplot and pairplot"
     ],
     [
-     "02:16",
+     "02:34",
      "Cross-tabulation"
     ],
     [
-     "02:37",
+     "02:59",
      "Cross-tab heatmap and stacked bar"
     ],
     [
-     "02:51",
+     "03:14",
      "Grouped statistics"
     ],
     [
-     "03:10",
+     "03:36",
      "Boxplots and bar chart"
     ],
     [
-     "03:22",
+     "03:48",
      "Hypothesis generation"
     ],
     [
-     "03:54",
+     "04:25",
      "Worked example: Titanic"
     ],
     [
-     "04:23",
+     "04:57",
      "Cheat sheet"
     ]
    ],
@@ -1166,7 +1166,7 @@
    "youtubeId": "",
    "short": {
     "title": "Six commands cover every pair of variables.",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2026-12-19",
     "youtubeId": "",
     "file": "course-videos/shorts/P09-10_Lab_Bivariate_Analysis_in_Python.mp4"
@@ -1180,7 +1180,7 @@
    "title": "Multicollinearity, VIF and K-Means Clustering Explained, With Silhouette Score",
    "summary": "what multicollinearity is, how VIF is calculated and read, how K-Means works, why to scale, how the silhouette score picks k, and how to interpret clusters",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "6:34",
+   "minutes": "7:30",
    "publish": "2026-12-21",
    "chapters": [
     [
@@ -1188,51 +1188,51 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:15",
      "What changes with many features"
     ],
     [
-     "00:46",
+     "00:52",
      "Multicollinearity"
     ],
     [
-     "01:20",
+     "01:31",
      "Variance inflation factor"
     ],
     [
-     "01:54",
+     "02:10",
      "Do the records form groups"
     ],
     [
-     "02:21",
+     "02:41",
      "Intro to clustering"
     ],
     [
-     "02:45",
+     "03:09",
      "How K-Means works"
     ],
     [
-     "03:16",
+     "03:45",
      "Scale before clustering"
     ],
     [
-     "03:46",
+     "04:19",
      "Choosing k: silhouette score"
     ],
     [
-     "04:20",
+     "04:58",
      "Seeing the clusters"
     ],
     [
-     "04:39",
+     "05:20",
      "Interpreting clusters"
     ],
     [
-     "05:23",
+     "06:09",
      "What K-Means does not tell you"
     ],
     [
-     "05:51",
+     "06:41",
      "Key takeaways"
     ]
    ],
@@ -1240,7 +1240,7 @@
    "youtubeId": "",
    "short": {
     "title": "Two features can look uncorrelated and still be redundant.",
-    "minutes": "0:21",
+    "minutes": "0:24",
     "publish": "2026-12-22",
     "youtubeId": "",
     "file": "course-videos/shorts/L11-12_Multivariate_Analysis_VIF_and_Clustering.mp4"
@@ -1254,7 +1254,7 @@
    "title": "VIF and K-Means Clustering in Python: Scaling, Silhouette Score and Interpretation",
    "summary": "how to compute VIF, scale with StandardScaler, fit K-Means, choose k with the silhouette score, and name clusters with grouped statistics",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "4:22",
+   "minutes": "4:53",
    "publish": "2026-12-23",
    "chapters": [
     [
@@ -1262,47 +1262,47 @@
      "Introduction"
     ],
     [
-     "00:15",
+     "00:17",
      "Setup"
     ],
     [
-     "00:31",
+     "00:35",
      "Numeric features"
     ],
     [
-     "00:45",
+     "00:51",
      "Step 1: correlation matrix"
     ],
     [
-     "01:00",
+     "01:08",
      "Step 2: computing VIF"
     ],
     [
-     "01:30",
+     "01:41",
      "Scale the features"
     ],
     [
-     "01:55",
+     "02:09",
      "Implement K-Means"
     ],
     [
-     "02:23",
+     "02:41",
      "Choosing k"
     ],
     [
-     "02:52",
+     "03:12",
      "Visualise the groups"
     ],
     [
-     "03:04",
+     "03:25",
      "Interpret the clusters"
     ],
     [
-     "03:27",
+     "03:51",
      "Worked example: Titanic"
     ],
     [
-     "03:55",
+     "04:23",
      "Cheat sheet"
     ]
    ],
@@ -1310,7 +1310,7 @@
    "youtubeId": "",
    "short": {
     "title": "Cluster 1 loses 107 dollars per order.",
-    "minutes": "0:18",
+    "minutes": "0:20",
     "publish": "2026-12-24",
     "youtubeId": "",
     "file": "course-videos/shorts/P11-12_Lab_Multivariate_Analysis_in_Python.mp4"
@@ -1324,7 +1324,7 @@
    "title": "Data Visualization Principles: Grammar of Graphics, Misleading Charts and Data Storytelling",
    "summary": "why we plot (Anscombe's quartet), the Grammar of Graphics, choosing the right chart, misleading charts, non-numeric data, dashboards and storytelling",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "7:30",
+   "minutes": "8:28",
    "publish": "2026-12-25",
    "chapters": [
     [
@@ -1332,35 +1332,35 @@
      "Introduction"
     ],
     [
-     "00:45",
+     "00:51",
      "Why we visualize"
     ],
     [
-     "01:15",
+     "01:25",
      "Grammar of Graphics"
     ],
     [
-     "03:01",
+     "03:25",
      "Good vs misleading plots"
     ],
     [
-     "04:23",
+     "04:59",
      "Visualizing non-numeric data"
     ],
     [
-     "04:56",
+     "05:36",
      "Dashboard logic"
     ],
     [
-     "05:28",
+     "06:11",
      "Storytelling with data"
     ],
     [
-     "06:15",
+     "07:04",
      "Assignment 1 preparation"
     ],
     [
-     "06:51",
+     "07:46",
      "Summary"
     ]
    ],
@@ -1368,7 +1368,7 @@
    "youtubeId": "",
    "short": {
     "title": "Four datasets, same statistics, totally different pictures.",
-    "minutes": "0:21",
+    "minutes": "0:22",
     "publish": "2026-12-26",
     "youtubeId": "",
     "file": "course-videos/shorts/L13-14_Data_Visualization_Grammar_to_Storytelling_Lecture.mp4"
@@ -1382,7 +1382,7 @@
    "title": "Data Visualization in Python: Seaborn, Treemap, Word Cloud, Network Diagram and Dashboard",
    "summary": "how to build layered seaborn charts, facets, honest versus misleading axes, treemaps, word clouds, network diagrams, gridspec dashboards and annotated story charts",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "6:42",
+   "minutes": "7:33",
    "publish": "2026-12-28",
    "chapters": [
     [
@@ -1390,35 +1390,35 @@
      "Introduction"
     ],
     [
-     "00:22",
+     "00:25",
      "Setup"
     ],
     [
-     "00:46",
+     "00:52",
      "Grammar of Graphics"
     ],
     [
-     "01:55",
+     "02:11",
      "Good vs misleading plots"
     ],
     [
-     "02:32",
+     "02:53",
      "Visualizing non-numeric data"
     ],
     [
-     "04:00",
+     "04:32",
      "Dashboard logic"
     ],
     [
-     "04:49",
+     "05:27",
      "Storytelling with data"
     ],
     [
-     "05:35",
+     "06:18",
      "Second dataset: Titanic"
     ],
     [
-     "06:03",
+     "06:50",
      "Practice exercises"
     ]
    ],
@@ -1426,7 +1426,7 @@
    "youtubeId": "",
    "short": {
     "title": "A truncated axis can make a small gap look huge.",
-    "minutes": "0:19",
+    "minutes": "0:22",
     "publish": "2026-12-29",
     "youtubeId": "",
     "file": "course-videos/shorts/P13-14_Lab_Data_Visualization_Grammar_to_Storytelling.mp4"
@@ -1440,7 +1440,7 @@
    "title": "Assignment 1 Guide: How to Plan and Present an EDA Mini Project in Python",
    "summary": "how to choose a dataset, structure the analysis, avoid common mistakes and present an EDA mini project as a story",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "3:04",
+   "minutes": "3:29",
    "publish": "2026-12-30",
    "chapters": [
     [
@@ -1448,23 +1448,23 @@
      "Introduction"
     ],
     [
-     "00:40",
+     "00:46",
      "Structure"
     ],
     [
-     "01:04",
+     "01:12",
      "Choosing data"
     ],
     [
-     "01:54",
+     "02:10",
      "Presenting"
     ],
     [
-     "02:18",
+     "02:37",
      "Checklist"
     ],
     [
-     "02:43",
+     "03:06",
      "Mistakes"
     ]
    ],
@@ -1472,7 +1472,7 @@
    "youtubeId": "",
    "short": {
     "title": "Pair every statistic with a picture.",
-    "minutes": "0:21",
+    "minutes": "0:23",
     "publish": "2026-12-31",
     "youtubeId": "",
     "file": "course-videos/shorts/A1_Assignment_1_Guide_EDA_Mini_Project.mp4"
@@ -1486,7 +1486,7 @@
    "title": "Module 2 Revision: Univariate, Bivariate and Multivariate EDA and Visualization (With Self-Test Questions)",
    "summary": "a recap of lectures 7 to 14 and five self-test questions on graphical and non-graphical EDA, correlation, VIF, K-Means and honest charts",
    "playlist": "Module 2 - Univariate, Bivariate, Multivariate EDA and Visualization",
-   "minutes": "4:23",
+   "minutes": "4:53",
    "publish": "2027-01-01",
    "chapters": [
     [
@@ -1494,31 +1494,31 @@
      "Introduction"
     ],
     [
-     "00:16",
+     "00:17",
      "Lectures 7 and 8"
     ],
     [
-     "00:48",
+     "00:53",
      "Lectures 9 and 10"
     ],
     [
-     "01:23",
+     "01:32",
      "Lectures 11 and 12"
     ],
     [
-     "01:53",
+     "02:07",
      "Lectures 13 and 14"
     ],
     [
-     "02:27",
+     "02:43",
      "Labs"
     ],
     [
-     "02:51",
+     "03:10",
      "Test yourself"
     ],
     [
-     "04:04",
+     "04:31",
      "Summary"
     ]
    ],
@@ -1526,7 +1526,7 @@
    "youtubeId": "",
    "short": {
     "title": "Pearson says minus 0.22. Spearman says minus 0.54. Why?",
-    "minutes": "0:22",
+    "minutes": "0:23",
     "publish": "2027-01-02",
     "youtubeId": "",
     "file": "course-videos/shorts/R2_Module_2_Revision_Core_Advanced_EDA.mp4"
@@ -1540,7 +1540,7 @@
    "title": "Data Quality Explained: Accuracy, Completeness, Consistency, Validity and Data Integration",
    "summary": "the four dimensions of data quality, how to merge multiple sources, find duplicates, fix inconsistent encoding and write validation rules",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "7:47",
+   "minutes": "8:47",
    "publish": "2027-01-04",
    "chapters": [
     [
@@ -1548,35 +1548,35 @@
      "Introduction"
     ],
     [
-     "00:56",
+     "01:03",
      "Quality dimensions"
     ],
     [
-     "02:28",
+     "02:47",
      "Consistency"
     ],
     [
-     "03:17",
+     "03:42",
      "Validity"
     ],
     [
-     "04:01",
+     "04:31",
      "Data integration"
     ],
     [
-     "05:05",
+     "05:43",
      "Duplicates"
     ],
     [
-     "05:38",
+     "06:21",
      "Encoding and re-audit"
     ],
     [
-     "06:10",
+     "06:57",
      "Validation rules"
     ],
     [
-     "07:09",
+     "08:03",
      "Summary"
     ]
    ],
@@ -1584,7 +1584,7 @@
    "youtubeId": "",
    "short": {
     "title": "A 10,000 dollar room passes every validity rule.",
-    "minutes": "0:22",
+    "minutes": "0:24",
     "publish": "2027-01-05",
     "youtubeId": "",
     "file": "course-videos/shorts/L15-16_Data_Quality_Integration_and_Validation_Lecture.mp4"
@@ -1598,7 +1598,7 @@
    "title": "Data Quality Audit in Python (Part 1): Duplicates, Missing Values, Consistency and Validity Rules",
    "summary": "how to audit a merged dataset in five commands, check accuracy against peer medians, measure completeness, find consistency problems and test validity rules",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "5:55",
+   "minutes": "6:39",
    "publish": "2027-01-06",
    "chapters": [
     [
@@ -1606,55 +1606,55 @@
      "Introduction"
     ],
     [
-     "00:25",
+     "00:28",
      "Lab roadmap"
     ],
     [
-     "00:45",
+     "00:51",
      "Lab datasets"
     ],
     [
-     "01:24",
+     "01:34",
      "Setup"
     ],
     [
-     "01:42",
+     "01:55",
      "Part 1: data quality audit"
     ],
     [
-     "02:10",
+     "02:26",
      "One audit table"
     ],
     [
-     "02:26",
+     "02:44",
      "Dimension 1: accuracy"
     ],
     [
-     "02:50",
+     "03:11",
      "Flag, do not delete"
     ],
     [
-     "03:20",
+     "03:45",
      "Dimension 2: completeness"
     ],
     [
-     "03:39",
+     "04:06",
      "Why is it missing"
     ],
     [
-     "04:04",
+     "04:34",
      "Dimension 3: consistency across rows"
     ],
     [
-     "04:26",
+     "04:59",
      "Consistency across columns and sources"
     ],
     [
-     "04:49",
+     "05:24",
      "Dimension 4: validity"
     ],
     [
-     "05:21",
+     "06:01",
      "Validity vs accuracy"
     ]
    ],
@@ -1662,7 +1662,7 @@
    "youtubeId": "",
    "short": {
     "title": "Five commands audit a whole dataset.",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2027-01-07",
     "youtubeId": "",
     "file": "course-videos/shorts/P15-16_Lab_Data_Quality_Part_A_Audit_to_Validity.mp4"
@@ -1676,7 +1676,7 @@
    "title": "Merge Data Sources, Remove Duplicates and Scale Features in Python (Data Quality Part 2)",
    "summary": "how to integrate two sources on a key, resolve conflicts, remove duplicate rows and columns, standardize categories, write validation rules and apply log and standard scaling",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "6:59",
+   "minutes": "7:46",
    "publish": "2027-01-08",
    "chapters": [
     [
@@ -1684,55 +1684,55 @@
      "Part 6: integration, steps 1 and 2"
     ],
     [
-     "00:26",
+     "00:31",
      "Integration, steps 3 and 4"
     ],
     [
-     "00:57",
+     "01:06",
      "Part 7: duplicate detection"
     ],
     [
-     "01:29",
+     "01:41",
      "Part 8: duplicate removal"
     ],
     [
-     "02:01",
+     "02:15",
      "Part 9: inconsistent encoding"
     ],
     [
-     "02:24",
+     "02:42",
      "Re-audit after every fix"
     ],
     [
-     "02:54",
+     "03:15",
      "Part 10: validation rules"
     ],
     [
-     "03:18",
+     "03:42",
      "Part 11: measure skew"
     ],
     [
-     "03:42",
+     "04:09",
      "log1p tames the tail"
     ],
     [
-     "04:03",
+     "04:33",
      "Step 2: StandardScaler"
     ],
     [
-     "04:36",
+     "05:09",
      "Part 12: final re-audit"
     ],
     [
-     "05:18",
+     "05:55",
      "Part 13: second dataset"
     ],
     [
-     "05:47",
+     "06:27",
      "Validity, accuracy, duplicates, scale"
     ],
     [
-     "06:19",
+     "07:02",
      "Key takeaways"
     ]
    ],
@@ -1740,7 +1740,7 @@
    "youtubeId": "",
    "short": {
     "title": "Cleaning one column created 300 new duplicates.",
-    "minutes": "0:17",
+    "minutes": "0:19",
     "publish": "2027-01-09",
     "youtubeId": "",
     "file": "course-videos/shorts/P15-16_Lab_Data_Quality_Part_B_Integration_to_Scale.mp4"
@@ -1754,7 +1754,7 @@
    "title": "Missing Values in Python: MCAR vs MAR vs MNAR, Mean, Median, KNN and Regression Imputation",
    "summary": "the three missing-data mechanisms, how to prove MAR with a crosstab, and how mean, median, KNN and regression imputation compare on variance retained",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "7:17",
+   "minutes": "8:15",
    "publish": "2027-01-11",
    "chapters": [
     [
@@ -1762,59 +1762,59 @@
      "Intro"
     ],
     [
-     "00:25",
+     "00:30",
      "Why missing values matter"
     ],
     [
-     "00:54",
+     "01:08",
      "MCAR, MAR, MNAR"
     ],
     [
-     "01:31",
+     "01:53",
      "MAR proven in the data"
     ],
     [
-     "02:07",
+     "02:38",
      "Lab: load and count gaps"
     ],
     [
-     "02:29",
+     "03:05",
      "Lab: crosstab proves MAR"
     ],
     [
-     "02:51",
+     "03:33",
      "Disguised missing values"
     ],
     [
-     "03:22",
+     "04:10",
      "Three imputation strategies"
     ],
     [
-     "03:50",
+     "04:43",
      "Mean and median imputation"
     ],
     [
-     "04:15",
+     "05:13",
      "KNN imputation"
     ],
     [
-     "04:47",
+     "05:50",
      "Regression imputation"
     ],
     [
-     "05:18",
+     "06:26",
      "Distribution comparison"
     ],
     [
-     "05:35",
+     "06:47",
      "Comparing the strategies"
     ],
     [
-     "06:00",
+     "07:18",
      "Key takeaways"
     ],
     [
-     "06:27",
+     "07:51",
      "Try it yourself"
     ]
    ],
@@ -1822,7 +1822,7 @@
    "youtubeId": "",
    "short": {
     "title": "Never just fill missing values with the mean.",
-    "minutes": "0:21",
+    "minutes": "0:22",
     "publish": "2027-01-12",
     "youtubeId": "",
     "file": "course-videos/shorts/L17-18_Missing_Values_Lecture_and_Lab.mp4"
@@ -1836,7 +1836,7 @@
    "title": "Outliers Explained: Z-Score vs IQR, Isolation Forest, LOF and How to Fix Them",
    "summary": "what outliers are, why they occur, four types, how Z-score, IQR and ML models detect them, how they spoil results and nine ways to fix them",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "9:19",
+   "minutes": "10:26",
    "publish": "2027-01-13",
    "chapters": [
     [
@@ -1844,71 +1844,71 @@
      "Introduction"
     ],
     [
-     "00:09",
+     "00:11",
      "Session map"
     ],
     [
-     "00:35",
+     "00:40",
      "What is an outlier"
     ],
     [
-     "01:09",
+     "01:18",
      "Real data: mean vs median"
     ],
     [
-     "01:33",
+     "01:45",
      "Why outliers occur"
     ],
     [
-     "02:11",
+     "02:27",
      "Types of outliers"
     ],
     [
-     "02:45",
+     "03:05",
      "Contextual outliers"
     ],
     [
-     "03:14",
+     "03:37",
      "How do we find outliers"
     ],
     [
-     "03:47",
+     "04:15",
      "The box plot"
     ],
     [
-     "04:08",
+     "04:38",
      "Z-score rule"
     ],
     [
-     "04:49",
+     "05:24",
      "IQR rule"
     ],
     [
-     "05:23",
+     "06:03",
      "Z-score vs IQR"
     ],
     [
-     "05:44",
+     "06:25",
      "Why Z-score misses outliers"
     ],
     [
-     "06:24",
+     "07:09",
      "Finding outliers with ML"
     ],
     [
-     "06:52",
+     "07:41",
      "Simple rules vs ML models"
     ],
     [
-     "07:24",
+     "08:19",
      "What if we do not fix outliers"
     ],
     [
-     "08:05",
+     "09:04",
      "Ways to fix outliers"
     ],
     [
-     "08:43",
+     "09:46",
      "Which fix: first ask why"
     ]
    ],
@@ -1916,7 +1916,7 @@
    "youtubeId": "",
    "short": {
     "title": "Z-score missed 2,584 outliers that IQR caught.",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2027-01-14",
     "youtubeId": "",
     "file": "course-videos/shorts/L19-20_Outliers_Lecture.mp4"
@@ -1930,7 +1930,7 @@
    "title": "Outlier Detection and Treatment in Python: IQR, Z-Score, Isolation Forest, LOF and DBSCAN",
    "summary": "how to detect outliers with Z-score, IQR, Isolation Forest, LOF and DBSCAN, and treat them by removal, capping, winsorizing, imputation and log transform",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "6:49",
+   "minutes": "7:34",
    "publish": "2027-01-15",
    "chapters": [
     [
@@ -1938,55 +1938,55 @@
      "Lab datasets"
     ],
     [
-     "00:25",
+     "00:27",
      "Steps 1 and 2: load and find causes"
     ],
     [
-     "00:49",
+     "00:53",
      "Step 5: Z-score"
     ],
     [
-     "01:20",
+     "01:28",
      "Step 6: IQR"
     ],
     [
-     "01:50",
+     "02:01",
      "Isolation Forest"
     ],
     [
-     "02:18",
+     "02:31",
      "Local Outlier Factor"
     ],
     [
-     "02:47",
+     "03:04",
      "DBSCAN and comparison"
     ],
     [
-     "03:18",
+     "03:40",
      "Step 9: fix outliers"
     ],
     [
-     "03:55",
+     "04:21",
      "Replace using ML"
     ],
     [
-     "04:26",
+     "04:55",
      "Step 10: before vs after"
     ],
     [
-     "04:50",
+     "05:21",
      "Skew of every column"
     ],
     [
-     "05:07",
+     "05:41",
      "Charts before vs after"
     ],
     [
-     "05:21",
+     "05:57",
      "Step 11: model accuracy"
     ],
     [
-     "05:52",
+     "06:31",
      "Key takeaways"
     ]
    ],
@@ -1994,7 +1994,7 @@
    "youtubeId": "",
    "short": {
     "title": "Fixing outliers made the model four times better.",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2027-01-16",
     "youtubeId": "",
     "file": "course-videos/shorts/P19-20_Lab_Outliers_in_Python.mp4"
@@ -2008,7 +2008,7 @@
    "title": "Categorical Encoding Explained: One-Hot, Label, Ordinal, Target Encoding and Imbalanced Classes",
    "summary": "why models need numbers, nominal versus ordinal encoding, one-hot and dummy variables, frequency and target encoding, and how to handle rare classes",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "5:29",
+   "minutes": "6:12",
    "publish": "2027-01-18",
    "chapters": [
     [
@@ -2016,51 +2016,51 @@
      "Introduction"
     ],
     [
-     "00:10",
+     "00:11",
      "Session map"
     ],
     [
-     "00:30",
+     "00:34",
      "Why encode"
     ],
     [
-     "00:57",
+     "01:04",
      "Types of categories"
     ],
     [
-     "01:20",
+     "01:31",
      "Label encoding"
     ],
     [
-     "01:49",
+     "02:03",
      "Ordinal encoding"
     ],
     [
-     "02:15",
+     "02:32",
      "One-hot encoding"
     ],
     [
-     "02:36",
+     "02:55",
      "Dummy variables"
     ],
     [
-     "03:07",
+     "03:32",
      "Too many categories"
     ],
     [
-     "03:36",
+     "04:03",
      "Target encoding"
     ],
     [
-     "04:11",
+     "04:44",
      "Imbalanced classes"
     ],
     [
-     "04:30",
+     "05:06",
      "Four fixes for a rare class"
     ],
     [
-     "04:54",
+     "05:34",
      "Which encoding when"
     ]
    ],
@@ -2068,7 +2068,7 @@
    "youtubeId": "",
    "short": {
     "title": "Label encoding invents an order that does not exist.",
-    "minutes": "0:20",
+    "minutes": "0:23",
     "publish": "2027-01-19",
     "youtubeId": "",
     "file": "course-videos/shorts/L21-22_Encoding_and_Imbalanced_Classes_Lecture.mp4"
@@ -2082,7 +2082,7 @@
    "title": "One-Hot Encoding, Dummy Variables and Class Weights in Python for Imbalanced Data",
    "summary": "how to apply label, ordinal, one-hot, frequency and target encoding, find class imbalance, and use class weights and stratified splits to find the rare class",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "3:40",
+   "minutes": "4:05",
    "publish": "2027-01-20",
    "chapters": [
     [
@@ -2090,35 +2090,35 @@
      "Lab datasets"
     ],
     [
-     "00:21",
+     "00:23",
      "Step 1: count categories"
     ],
     [
-     "00:36",
+     "00:40",
      "Step 2: label and ordinal"
     ],
     [
-     "01:07",
+     "01:14",
      "Step 3: one-hot and dummies"
     ],
     [
-     "01:25",
+     "01:35",
      "Step 4: frequency and target encoding"
     ],
     [
-     "01:56",
+     "02:10",
      "Step 5: find the imbalance"
     ],
     [
-     "02:21",
+     "02:36",
      "Step 6: class weights"
     ],
     [
-     "02:45",
+     "03:03",
      "Second dataset: Online Shoppers"
     ],
     [
-     "03:12",
+     "03:33",
      "Key takeaways"
     ]
    ],
@@ -2126,7 +2126,7 @@
    "youtubeId": "",
    "short": {
     "title": "Accuracy went down, and the model got better.",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2027-01-21",
     "youtubeId": "",
     "file": "course-videos/shorts/P21-22_Lab_Encoding_and_Imbalance_in_Python.mp4"
@@ -2140,7 +2140,7 @@
    "title": "Assignment 2 Guide: Data Quality and Anomaly Handling Mini Project in Python",
    "summary": "how to audit, clean, impute, treat outliers, encode and validate a dataset, and how to show before-and-after evidence",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "2:50",
+   "minutes": "3:10",
    "publish": "2027-01-22",
    "chapters": [
     [
@@ -2148,23 +2148,23 @@
      "Introduction"
     ],
     [
-     "00:40",
+     "00:45",
      "Pipeline"
     ],
     [
-     "01:06",
+     "01:13",
      "Documenting"
     ],
     [
-     "01:32",
+     "01:42",
      "Before and after"
     ],
     [
-     "02:00",
+     "02:14",
      "Avoid leakage"
     ],
     [
-     "02:20",
+     "02:36",
      "Checklist"
     ]
    ],
@@ -2172,7 +2172,7 @@
    "youtubeId": "",
    "short": {
     "title": "Do not just say you cleaned the data. Show the numbers.",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2027-01-23",
     "youtubeId": "",
     "file": "course-videos/shorts/A2_Assignment_2_Guide_Data_Quality_Mini_Project.mp4"
@@ -2186,7 +2186,7 @@
    "title": "Module 3 Revision: Data Quality, Missing Values, Outliers and Encoding (With Self-Test Questions)",
    "summary": "a recap of lectures 15 to 22 and five self-test questions on data quality, imputation, outliers, encoding and class imbalance",
    "playlist": "Module 3 - Data Quality and Anomaly Management",
-   "minutes": "4:09",
+   "minutes": "4:40",
    "publish": "2027-01-25",
    "chapters": [
     [
@@ -2194,31 +2194,31 @@
      "Introduction"
     ],
     [
-     "00:17",
+     "00:18",
      "Lectures 15 and 16"
     ],
     [
-     "00:48",
+     "00:54",
      "Lectures 17 and 18"
     ],
     [
-     "01:13",
+     "01:22",
      "Lectures 19 and 20"
     ],
     [
-     "01:45",
+     "01:58",
      "Lectures 21 and 22"
     ],
     [
-     "02:13",
+     "02:30",
      "Labs"
     ],
     [
-     "02:38",
+     "02:58",
      "Test yourself"
     ],
     [
-     "03:48",
+     "04:18",
      "Summary"
     ]
    ],
@@ -2226,7 +2226,7 @@
    "youtubeId": "",
    "short": {
     "title": "Can you explain why your data is missing?",
-    "minutes": "0:18",
+    "minutes": "0:19",
     "publish": "2027-01-26",
     "youtubeId": "",
     "file": "course-videos/shorts/R3_Module_3_Revision_Data_Quality_and_Anomalies.mp4"
@@ -2240,7 +2240,7 @@
    "title": "Data Transformation and Feature Scaling: Log, Box-Cox, StandardScaler, MinMax and Robust Scaler",
    "summary": "why we transform data, how log and Box-Cox change shape, how standard, min-max and robust scalers change units, and how to measure the impact",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "5:42",
+   "minutes": "6:23",
    "publish": "2027-01-27",
    "chapters": [
     [
@@ -2248,39 +2248,39 @@
      "Introduction"
     ],
     [
-     "00:12",
+     "00:13",
      "Today's three ideas"
     ],
     [
-     "00:45",
+     "00:50",
      "The dataset"
     ],
     [
-     "01:16",
+     "01:23",
      "Why transform"
     ],
     [
-     "01:52",
+     "02:04",
      "Skewness of the features"
     ],
     [
-     "02:24",
+     "02:39",
      "Transforming vs scaling"
     ],
     [
-     "03:02",
+     "03:22",
      "Log transform"
     ],
     [
-     "03:44",
+     "04:08",
      "Box-Cox"
     ],
     [
-     "04:28",
+     "04:59",
      "Three ways to scale"
     ],
     [
-     "05:09",
+     "05:44",
      "Measuring the impact"
     ]
    ],
@@ -2288,7 +2288,7 @@
    "youtubeId": "",
    "short": {
     "title": "Transforming changes shape. Scaling changes units.",
-    "minutes": "0:22",
+    "minutes": "0:25",
     "publish": "2027-01-28",
     "youtubeId": "",
     "file": "course-videos/shorts/L23-24_Transformation_and_Scaling_Lecture.mp4"
@@ -2302,7 +2302,7 @@
    "title": "Log Transform, Box-Cox and Scalers in Python: California Housing Tutorial",
    "summary": "how to measure skew and outliers, apply log and Box-Cox to all features at once, compare three scalers, and combine a transform with scaling safely",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "6:12",
+   "minutes": "6:56",
    "publish": "2027-01-29",
    "chapters": [
     [
@@ -2310,63 +2310,63 @@
      "Introduction"
     ],
     [
-     "00:07",
+     "00:08",
      "Step 1: load, clean, select"
     ],
     [
-     "00:24",
+     "00:27",
      "Step 2: measure"
     ],
     [
-     "00:52",
+     "00:58",
      "Step 3: log transform"
     ],
     [
-     "01:17",
+     "01:25",
      "Step 4: Box-Cox"
     ],
     [
-     "01:50",
+     "02:03",
      "Skewness before vs after"
     ],
     [
-     "02:10",
+     "02:26",
      "One feature, three shapes"
     ],
     [
-     "02:23",
+     "02:41",
      "Density raw vs Box-Cox"
     ],
     [
-     "02:37",
+     "02:56",
      "Outliers before and after"
     ],
     [
-     "03:00",
+     "03:22",
      "Step 5: three scalers"
     ],
     [
-     "03:33",
+     "03:57",
      "Same shape, different units"
     ],
     [
-     "03:45",
+     "04:11",
      "Box plots after scaling"
     ],
     [
-     "04:06",
+     "04:35",
      "The MinMax trap"
     ],
     [
-     "04:37",
+     "05:10",
      "Step 6: transform first, then scale"
     ],
     [
-     "05:09",
+     "05:45",
      "Which method when"
     ],
     [
-     "05:50",
+     "06:32",
      "Summary"
     ]
    ],
@@ -2374,7 +2374,7 @@
    "youtubeId": "",
    "short": {
     "title": "Log made the symmetric column worse.",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2027-01-30",
     "youtubeId": "",
     "file": "course-videos/shorts/P23-24_Lab_Transformation_and_Scaling_in_Python.mp4"
@@ -2388,7 +2388,7 @@
    "title": "Feature Engineering Explained: Feature Construction, Interaction Terms and Polynomial Features",
    "summary": "how to construct totals, ratios, flags, logs and bands, detect interactions, use polynomial features safely, and why too many columns cause the curse of dimensionality",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "7:54",
+   "minutes": "8:51",
    "publish": "2027-02-01",
    "chapters": [
     [
@@ -2396,67 +2396,67 @@
      "Introduction"
     ],
     [
-     "00:10",
+     "00:11",
      "Roadmap"
     ],
     [
-     "00:41",
+     "00:46",
      "Same model, better features"
     ],
     [
-     "01:12",
+     "01:21",
      "Feature construction"
     ],
     [
-     "01:49",
+     "02:02",
      "Five recipes"
     ],
     [
-     "02:20",
+     "02:37",
      "One flag splits buyers from browsers"
     ],
     [
-     "02:44",
+     "03:03",
      "Bands show a step effect"
     ],
     [
-     "03:03",
+     "03:25",
      "Good practice"
     ],
     [
-     "03:35",
+     "04:02",
      "Interaction terms"
     ],
     [
-     "04:01",
+     "04:32",
      "Detect an interaction"
     ],
     [
-     "04:28",
+     "05:02",
      "Polynomial features"
     ],
     [
-     "04:54",
+     "05:31",
      "Columns explode"
     ],
     [
-     "05:17",
+     "05:56",
      "Using polynomials safely"
     ],
     [
-     "05:51",
+     "06:33",
      "Curse of dimensionality"
     ],
     [
-     "06:22",
+     "07:07",
      "Three symptoms"
     ],
     [
-     "06:51",
+     "07:40",
      "Evidence"
     ],
     [
-     "07:16",
+     "08:08",
      "How to beat the curse"
     ]
    ],
@@ -2464,7 +2464,7 @@
    "youtubeId": "",
    "short": {
     "title": "Same model, better features, plus 0.05 AUC.",
-    "minutes": "0:21",
+    "minutes": "0:24",
     "publish": "2027-02-02",
     "youtubeId": "",
     "file": "course-videos/shorts/L25_Feature_Engineering.mp4"
@@ -2478,7 +2478,7 @@
    "title": "Feature Selection Methods: Filter, Wrapper and Embedded (Lasso, RFE, Mutual Information)",
    "summary": "why we select features, how filter, wrapper and embedded methods work, how they compare, and a practical selection workflow",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "4:11",
+   "minutes": "4:42",
    "publish": "2027-02-03",
    "chapters": [
     [
@@ -2486,31 +2486,31 @@
      "Feature selection: three families"
     ],
     [
-     "00:29",
+     "00:32",
      "Filter methods"
     ],
     [
-     "01:08",
+     "01:17",
      "Filter example"
     ],
     [
-     "01:32",
+     "01:43",
      "Wrapper methods"
     ],
     [
-     "02:06",
+     "02:22",
      "Embedded methods"
     ],
     [
-     "02:36",
+     "02:55",
      "Filter vs wrapper vs embedded"
     ],
     [
-     "03:07",
+     "03:30",
      "A practical workflow"
     ],
     [
-     "03:40",
+     "04:07",
      "Key takeaways"
     ]
    ],
@@ -2518,7 +2518,7 @@
    "youtubeId": "",
    "short": {
     "title": "10 features scored as well as 85.",
-    "minutes": "0:20",
+    "minutes": "0:23",
     "publish": "2027-02-04",
     "youtubeId": "",
     "file": "course-videos/shorts/L26_Feature_Selection.mp4"
@@ -2532,7 +2532,7 @@
    "title": "Feature Engineering in Python: Ratios, Flags, Interactions and Polynomial Features",
    "summary": "how to build totals, ratios, flags, logs and bands, test their value with the same model, and see the curse of dimensionality in train versus test scores",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "5:23",
+   "minutes": "6:00",
    "publish": "2027-02-05",
    "chapters": [
     [
@@ -2540,51 +2540,51 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:16",
      "Lab plan and datasets"
     ],
     [
-     "00:50",
+     "00:54",
      "Step 0: imports"
     ],
     [
-     "01:08",
+     "01:15",
      "Step 1: load data and target"
     ],
     [
-     "01:30",
+     "01:39",
      "Step 2: one yardstick"
     ],
     [
-     "01:59",
+     "02:11",
      "Construct: totals and ratios"
     ],
     [
-     "02:25",
+     "02:41",
      "Construct: flags"
     ],
     [
-     "02:50",
+     "03:09",
      "Construct: log and bands"
     ],
     [
-     "03:10",
+     "03:32",
      "Did the features help"
     ],
     [
-     "03:34",
+     "03:59",
      "Interactions"
     ],
     [
-     "03:59",
+     "04:27",
      "Polynomial features"
     ],
     [
-     "04:26",
+     "04:56",
      "Curse 1: data uses less space"
     ],
     [
-     "04:50",
+     "05:23",
      "Curse 2: over-fitting"
     ]
    ],
@@ -2592,7 +2592,7 @@
    "youtubeId": "",
    "short": {
     "title": "One line of code made buyers 14 times easier to spot.",
-    "minutes": "0:24",
+    "minutes": "0:25",
     "publish": "2027-02-06",
     "youtubeId": "",
     "file": "course-videos/shorts/P25_Lab_Feature_Engineering_in_Python.mp4"
@@ -2606,7 +2606,7 @@
    "title": "Feature Selection in Python: ANOVA, RFE, Forward Selection, L1 and Random Forest",
    "summary": "how to apply variance, correlation, ANOVA, mutual information, RFE, forward selection, L1 and random forest importance, and compare them with the same model",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "4:54",
+   "minutes": "5:26",
    "publish": "2027-02-08",
    "chapters": [
     [
@@ -2614,43 +2614,43 @@
      "Prepare X and y"
     ],
     [
-     "00:21",
+     "00:23",
      "Filter 1: variance and correlation"
     ],
     [
-     "00:53",
+     "00:58",
      "Filter 2: ANOVA and mutual information"
     ],
     [
-     "01:13",
+     "01:21",
      "Wrapper: RFE and forward selection"
     ],
     [
-     "01:43",
+     "01:53",
      "Embedded: L1 and random forest"
     ],
     [
-     "02:04",
+     "02:16",
      "Compare every subset"
     ],
     [
-     "02:23",
+     "02:36",
      "Result"
     ],
     [
-     "02:56",
+     "03:14",
      "Which features do methods agree on"
     ],
     [
-     "03:25",
+     "03:47",
      "Same steps on Pima diabetes"
     ],
     [
-     "04:04",
+     "04:30",
      "Pima: five features"
     ],
     [
-     "04:24",
+     "04:52",
      "What the lab showed"
     ]
    ],
@@ -2658,7 +2658,7 @@
    "youtubeId": "",
    "short": {
     "title": "Which features do all six methods agree on?",
-    "minutes": "0:17",
+    "minutes": "0:19",
     "publish": "2027-02-09",
     "youtubeId": "",
     "file": "course-videos/shorts/P26_Lab_Feature_Selection_in_Python.mp4"
@@ -2672,7 +2672,7 @@
    "title": "PCA, LDA, t-SNE and UMAP Explained: Dimensionality Reduction, VIF and Multicollinearity",
    "summary": "VIF, how PCA finds new axes, variance explained, loadings and biplots, how LDA uses labels, and when to use t-SNE and UMAP",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "6:31",
+   "minutes": "7:21",
    "publish": "2027-02-10",
    "chapters": [
     [
@@ -2680,63 +2680,63 @@
      "Introduction"
     ],
     [
-     "00:12",
+     "00:13",
      "Roadmap"
     ],
     [
-     "00:43",
+     "00:47",
      "Multicollinearity and VIF"
     ],
     [
-     "01:14",
+     "01:24",
      "VIF on the wine data"
     ],
     [
-     "01:45",
+     "01:58",
      "PCA: the idea"
     ],
     [
-     "02:13",
+     "02:30",
      "Always scale before PCA"
     ],
     [
-     "02:41",
+     "03:01",
      "Variance explained"
     ],
     [
-     "03:06",
+     "03:30",
      "Interpreting components"
     ],
     [
-     "03:35",
+     "04:03",
      "Check the name"
     ],
     [
-     "03:53",
+     "04:23",
      "Reading a biplot"
     ],
     [
-     "04:12",
+     "04:45",
      "LDA, t-SNE and UMAP"
     ],
     [
-     "04:19",
+     "04:53",
      "LDA"
     ],
     [
-     "04:51",
+     "05:29",
      "LDA beats PCA at classification"
     ],
     [
-     "05:14",
+     "05:55",
      "t-SNE and UMAP"
     ],
     [
-     "05:36",
+     "06:18",
      "Which method when"
     ],
     [
-     "06:03",
+     "06:49",
      "Key takeaways"
     ]
    ],
@@ -2744,7 +2744,7 @@
    "youtubeId": "",
    "short": {
     "title": "Without scaling, PC1 explains 95 percent just because of units.",
-    "minutes": "0:23",
+    "minutes": "0:25",
     "publish": "2027-02-11",
     "youtubeId": "",
     "file": "course-videos/shorts/L27-28_Dimensionality_Reduction_Lecture.mp4"
@@ -2758,7 +2758,7 @@
    "title": "PCA in Python: Scaling, Scree Plot, Loadings and Biplot (Wine and Breast Cancer Data)",
    "summary": "how to scale, check VIF, fit PCA, read variance explained, decide how many components, plot loadings and PC scatter, and repeat on breast cancer data",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "5:10",
+   "minutes": "5:45",
    "publish": "2027-02-12",
    "chapters": [
     [
@@ -2766,51 +2766,51 @@
      "Introduction"
     ],
     [
-     "00:08",
+     "00:10",
      "Lab plan"
     ],
     [
-     "00:39",
+     "00:44",
      "Step 1: load and scale"
     ],
     [
-     "01:09",
+     "01:18",
      "Step 2: VIF"
     ],
     [
-     "01:38",
+     "01:50",
      "Step 3: fit PCA"
     ],
     [
-     "02:02",
+     "02:16",
      "Step 4: variance explained"
     ],
     [
-     "02:27",
+     "02:44",
      "Scree and cumulative plots"
     ],
     [
-     "02:40",
+     "02:57",
      "Step 5: how many"
     ],
     [
-     "03:05",
+     "03:25",
      "Step 6: loadings"
     ],
     [
-     "03:30",
+     "03:53",
      "Step 7: PC scatter"
     ],
     [
-     "03:52",
+     "04:17",
      "Step 8: loading plot"
     ],
     [
-     "04:12",
+     "04:40",
      "Breast cancer example"
     ],
     [
-     "04:41",
+     "05:13",
      "What the lab showed"
     ]
    ],
@@ -2818,7 +2818,7 @@
    "youtubeId": "",
    "short": {
     "title": "Thirty features became two numbers.",
-    "minutes": "0:18",
+    "minutes": "0:20",
     "publish": "2027-02-13",
     "youtubeId": "",
     "file": "course-videos/shorts/P27-28_Lab_PCA_in_Python.mp4"
@@ -2832,7 +2832,7 @@
    "title": "Data Leakage, Cross-Validation and Train-Test Split Explained (Avoid Fake Accuracy)",
    "summary": "hypothesis refinement, train and test logic, cross-validation, four kinds of data leakage and how to prevent them",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "4:39",
+   "minutes": "5:12",
    "publish": "2027-02-15",
    "chapters": [
     [
@@ -2840,35 +2840,35 @@
      "Introduction"
     ],
     [
-     "00:18",
+     "00:21",
      "Roadmap"
     ],
     [
-     "00:45",
+     "00:51",
      "Hypothesis refinement"
     ],
     [
-     "01:15",
+     "01:25",
      "Two hypotheses, tested"
     ],
     [
-     "01:55",
+     "02:09",
      "Train/test logic"
     ],
     [
-     "02:28",
+     "02:44",
      "5-fold cross-validation"
     ],
     [
-     "02:56",
+     "03:16",
      "Data leakage"
     ],
     [
-     "03:34",
+     "03:59",
      "Leakage on real data"
     ],
     [
-     "04:05",
+     "04:34",
      "Preventing data leakage"
     ]
    ],
@@ -2876,7 +2876,7 @@
    "youtubeId": "",
    "short": {
     "title": "A recall of 0.99 that was completely fake.",
-    "minutes": "0:21",
+    "minutes": "0:23",
     "publish": "2027-02-16",
     "youtubeId": "",
     "file": "course-videos/shorts/L29_Testing_Honestly_Hypotheses_CV_and_Leakage.mp4"
@@ -2890,7 +2890,7 @@
    "title": "Imbalanced Data: Accuracy Paradox, Stratified Sampling and Turning EDA into Insights",
    "summary": "why accuracy misleads, stratified sampling, three ways to handle skew, turning observations into insights, and a review of the full pipeline",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "3:39",
+   "minutes": "4:03",
    "publish": "2027-02-17",
    "chapters": [
     [
@@ -2898,27 +2898,27 @@
      "Introduction"
     ],
     [
-     "00:08",
+     "00:09",
      "The accuracy paradox"
     ],
     [
-     "00:31",
+     "00:36",
      "Sampling skewed data"
     ],
     [
-     "01:04",
+     "01:12",
      "Three ways to handle skew"
     ],
     [
-     "01:39",
+     "01:52",
      "Translating EDA into insights"
     ],
     [
-     "02:20",
+     "02:37",
      "Course review: the full pipeline"
     ],
     [
-     "03:09",
+     "03:30",
      "Key takeaways"
     ]
    ],
@@ -2926,7 +2926,7 @@
    "youtubeId": "",
    "short": {
     "title": "A model that always says no is 84 percent accurate.",
-    "minutes": "0:20",
+    "minutes": "0:21",
     "publish": "2027-02-18",
     "youtubeId": "",
     "file": "course-videos/shorts/L30_Reporting_Honestly_Skewed_Data_and_Insights.mp4"
@@ -2940,7 +2940,7 @@
    "title": "End-to-End ML Pipeline in Python: Cross-Validation, Data Leakage Demo and Class Weights",
    "summary": "a complete pipeline: audit, hypothesis tests, split, pipeline with cross-validation, a leakage demo, handling skew and a final model with insights",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "4:45",
+   "minutes": "5:14",
    "publish": "2027-02-19",
    "chapters": [
     [
@@ -2948,47 +2948,47 @@
      "Introduction"
     ],
     [
-     "00:10",
+     "00:11",
      "Lab plan"
     ],
     [
-     "00:38",
+     "00:42",
      "Step 1: load and audit"
     ],
     [
-     "00:55",
+     "01:01",
      "Step 2: test the hypotheses"
     ],
     [
-     "01:26",
+     "01:35",
      "Step 3: features and split"
     ],
     [
-     "01:49",
+     "02:00",
      "Step 4: pipeline and cross-validation"
     ],
     [
-     "02:17",
+     "02:31",
      "Step 5: leakage demo"
     ],
     [
-     "02:37",
+     "02:53",
      "Step 6: the honest way"
     ],
     [
-     "02:57",
+     "03:14",
      "Step 7: skew baseline and stratified sample"
     ],
     [
-     "03:14",
+     "03:33",
      "Step 8: three ways to handle skew"
     ],
     [
-     "03:43",
+     "04:05",
      "Step 9: insight check and final pipeline"
     ],
     [
-     "04:15",
+     "04:40",
      "Step 10: what drives the model"
     ]
    ],
@@ -2996,7 +2996,7 @@
    "youtubeId": "",
    "short": {
     "title": "Leaky recall 0.99. Honest recall 0.66.",
-    "minutes": "0:22",
+    "minutes": "0:24",
     "publish": "2027-02-20",
     "youtubeId": "",
     "file": "course-videos/shorts/P29_Lab_Full_Pipeline_in_Python.mp4"
@@ -3010,7 +3010,7 @@
    "title": "How to Write an Industry-Style Data Science Notebook: Submission Checklist and Example",
    "summary": "the twelve-part structure of an industry-style notebook, a worked diabetes example with a leakage-safe pipeline, and a submission checklist",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "3:23",
+   "minutes": "3:46",
    "publish": "2027-02-22",
    "chapters": [
     [
@@ -3018,19 +3018,19 @@
      "Industry-style notebook structure"
     ],
     [
-     "00:51",
+     "00:57",
      "Example: setup and data audit"
     ],
     [
-     "01:26",
+     "01:35",
      "Example: leakage-safe pipeline"
     ],
     [
-     "02:06",
+     "02:20",
      "Submission checklist"
     ],
     [
-     "02:53",
+     "03:13",
      "Lab summary"
     ]
    ],
@@ -3038,7 +3038,7 @@
    "youtubeId": "",
    "short": {
     "title": "Would a manager understand your notebook?",
-    "minutes": "0:21",
+    "minutes": "0:23",
     "publish": "2027-02-23",
     "youtubeId": "",
     "file": "course-videos/shorts/P30_Lab_Industry_Style_Submission.mp4"
@@ -3052,7 +3052,7 @@
    "title": "Module 4 Revision: Transformation, Feature Engineering, PCA and ML Pipelines (With Self-Test Questions)",
    "summary": "a recap of lectures 23 to 30 and five self-test questions on transformation, scaling, feature engineering, PCA, leakage and pipelines",
    "playlist": "Module 4 - Feature Engineering, Transformation and Pipelines",
-   "minutes": "4:17",
+   "minutes": "4:50",
    "publish": "2027-02-24",
    "chapters": [
     [
@@ -3060,31 +3060,31 @@
      "Introduction"
     ],
     [
-     "00:18",
+     "00:19",
      "Lectures 23 and 24"
     ],
     [
-     "00:50",
+     "00:56",
      "Lectures 25 and 26"
     ],
     [
-     "01:17",
+     "01:27",
      "Lectures 27 and 28"
     ],
     [
-     "01:46",
+     "01:59",
      "Lectures 29 and 30"
     ],
     [
-     "02:18",
+     "02:34",
      "Labs"
     ],
     [
-     "02:40",
+     "02:59",
      "Test yourself"
     ],
     [
-     "03:54",
+     "04:24",
      "Summary"
     ]
    ],
@@ -3092,7 +3092,7 @@
    "youtubeId": "",
    "short": {
     "title": "Why does MinMax squeeze 96 percent of values below 0.1?",
-    "minutes": "0:20",
+    "minutes": "0:22",
     "publish": "2027-02-25",
     "youtubeId": "",
     "file": "course-videos/shorts/R4_Module_4_Revision_Features_Transformation_Pipeline.mp4"
@@ -3106,7 +3106,7 @@
    "title": "Lab Assessment Preparation: 10-Step Python EDA Routine and Code Cheat Sheet",
    "summary": "a 10-step Python EDA routine, the core code snippets, time management tips and a readiness checklist for a lab assessment",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "3:28",
+   "minutes": "3:52",
    "publish": "2027-02-26",
    "chapters": [
     [
@@ -3114,23 +3114,23 @@
      "Introduction"
     ],
     [
-     "00:38",
+     "00:42",
      "The 10-step routine"
     ],
     [
-     "01:14",
+     "01:22",
      "Core snippets"
     ],
     [
-     "02:14",
+     "02:29",
      "Cleaning snippets"
     ],
     [
-     "02:33",
+     "02:49",
      "Time and mistakes"
     ],
     [
-     "02:56",
+     "03:16",
      "Self-check"
     ]
    ],
@@ -3138,7 +3138,7 @@
    "youtubeId": "",
    "short": {
     "title": "Never start a lab exam from a blank page.",
-    "minutes": "0:19",
+    "minutes": "0:21",
     "publish": "2027-02-27",
     "youtubeId": "",
     "file": "course-videos/shorts/LA_Lab_Assessment_Preparation_EDA_Checklist.mp4"
@@ -3152,7 +3152,7 @@
    "title": "Final Project Guide: From Raw Data to Insights, Structure, Checklist and Presentation",
    "summary": "how to choose a dataset, structure a 12-part notebook, label claims as exploratory or confirmatory, prepare data without leakage and present a story",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "4:01",
+   "minutes": "4:31",
    "publish": "2027-03-01",
    "chapters": [
     [
@@ -3160,31 +3160,31 @@
      "Introduction"
     ],
     [
-     "00:44",
+     "00:50",
      "Choose data"
     ],
     [
-     "01:14",
+     "01:24",
      "Structure"
     ],
     [
-     "01:49",
+     "02:03",
      "Exploratory vs confirmatory"
     ],
     [
-     "02:14",
+     "02:31",
      "Data preparation"
     ],
     [
-     "02:43",
+     "03:04",
      "Presenting"
     ],
     [
-     "03:11",
+     "03:35",
      "Checklist"
     ],
     [
-     "03:38",
+     "04:05",
      "Final tips"
     ]
    ],
@@ -3192,7 +3192,7 @@
    "youtubeId": "",
    "short": {
     "title": "One focused question, done well.",
-    "minutes": "0:17",
+    "minutes": "0:19",
     "publish": "2027-03-02",
     "youtubeId": "",
     "file": "course-videos/shorts/FP_Final_Project_Guide_From_Data_to_Insights.mp4"
@@ -3206,7 +3206,7 @@
    "title": "The Complete EDA Workflow in One Video: 12 Steps From Question to Insight",
    "summary": "the complete exploratory data analysis workflow in twelve steps, with the tools and the lectures for each",
    "playlist": "Course Guides - Roadmap, Assignments, Revision and Exams",
-   "minutes": "2:34",
+   "minutes": "2:53",
    "publish": "2027-03-03",
    "chapters": [
     [
@@ -3214,23 +3214,23 @@
      "Introduction"
     ],
     [
-     "00:14",
+     "00:16",
      "Steps 1 to 4"
     ],
     [
-     "00:44",
+     "00:49",
      "Steps 5 to 8"
     ],
     [
-     "01:13",
+     "01:21",
      "Steps 9 to 12"
     ],
     [
-     "01:43",
+     "01:55",
      "Four golden rules"
     ],
     [
-     "02:10",
+     "02:26",
      "What next"
     ]
    ],
@@ -3238,7 +3238,7 @@
    "youtubeId": "",
    "short": {
     "title": "Thirty lectures in twelve steps.",
-    "minutes": "0:22",
+    "minutes": "0:24",
     "publish": "2027-03-04",
     "youtubeId": "",
     "file": "course-videos/shorts/W_Complete_EDA_Workflow_in_One_Video.mp4"
