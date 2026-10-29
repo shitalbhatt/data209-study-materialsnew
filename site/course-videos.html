@@ -56,6 +56,7 @@
     <a href="shorts.html">Shorts</a>
     <a href="course-videos.html" class="on" aria-current="page">Course videos</a>
   </nav>
+  <span class="visit-badge" title="Visitors and page views">👁 …</span>
   <button id="theme" aria-label="Toggle dark mode">◐</button>
 </header>
 <main>
@@ -71,6 +72,11 @@
 </section>
 <div id="cv-list"><p class="cv-empty">Loading videos…</p></div>
 </main>
+<footer style="max-width:1000px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:14px">
+  <p class="visits" aria-live="polite">👁 <span id="visit-count">counting…</span></p>
+  <p>Narration is AI-generated. Slides and code prepared by Dr. Shital D. Bhatt, Vidyashilp University.</p>
+</footer>
 <script src="course-videos.js"></script>
+<script src="counter.js" defer></script>
 </body>
 </html>
